@@ -177,3 +177,40 @@ Caso nao utilize Prometheus na maquina 194:
 | `GET` | `/api/schedules` | Cronogramas e agendamentos de todos os robos |
 | `GET` | `/api/data` | Payload completo consolidado em JSON |
 | `GET` | `/api/refresh` | Forca sincronizacao imediata contra a API Cloud |
+
+
+---
+
+## 8. Painel Dinamico em React (Branch `feature/react-dashboard`)
+
+Uma versao moderna desenvolvida com **React 19 + Vite + Lucide Icons** foi criada na branch `feature/react-dashboard`:
+- **Auto-Refresh dinamico configuravel** (Off, 15s, 30s, 60s)
+- **Cronometro em tempo real** calculando duracao ao vivo dos robos executando agora
+- **Filtros reativos instantaneos** (sem recarregar a pagina)
+- **Paginacao fluida** com seletor de pagina
+- **Exportacao CSV** com 1 clique
+
+### Como Rodar o Painel React Localmente
+
+#### Metodo 1: 1-Clique no Windows (Recomendado)
+Execute o arquivo:
+`iniciar_react.bat`
+Ele permitira escolher entre o modo producao unificado ou o modo desenvolvimento React com Vite Hot-Reload.
+
+#### Metodo 2: Modo Producao Unificado (Porta 8080)
+```powershell
+node roberty_collector.js --serve --port 8080
+```
+Acesse: `http://localhost:8080`
+
+#### Metodo 3: Modo Desenvolvimento React com Hot Module Replacement (Porta 3000)
+1. Terminal 1 (Backend de telemetria):
+   ```powershell
+   node roberty_collector.js --serve --port 8080
+   ```
+2. Terminal 2 (Vite Frontend):
+   ```powershell
+   cd frontend
+   npm run dev
+   ```
+Acesse: `http://localhost:3000`

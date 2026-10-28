@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-28T18:40:53.589Z",
+  "collectedAt": "2026-10-28T18:44:56.157Z",
   "workspace": {
     "id": "69665770092003387a6e99f2",
     "name": "Sicoob São Miguel",
@@ -171,22 +171,23 @@
   ],
   "scheduledSoon": [
     {
-      "id": "6a2c6e98ed19bb6e2824de5c",
-      "name": "40 - Abrir e Fechar Bloco de Notas",
-      "device": "Roberty40(PRD)",
-      "averageDuration": 27,
+      "id": "6a95bc8cf76e680289729ffa",
+      "name": "20 - BNDES Enquadramento Novo",
+      "device": "Roberty20(PRD)",
+      "averageDuration": 53,
       "scheduleMode": "weekly",
       "weekDays": [
-        0,
         1,
         2,
         3,
         4,
-        5,
-        6
+        5
       ],
-      "timePeriod": [],
-      "timeInterval": "10m",
+      "timePeriod": [
+        "08:14",
+        "17:15"
+      ],
+      "timeInterval": "15m",
       "specificTimes": []
     },
     {
@@ -230,23 +231,22 @@
       "specificTimes": []
     },
     {
-      "id": "6a95bc8cf76e680289729ffa",
-      "name": "20 - BNDES Enquadramento Novo",
-      "device": "Roberty20(PRD)",
-      "averageDuration": 53,
+      "id": "6a2c6e98ed19bb6e2824de5c",
+      "name": "40 - Abrir e Fechar Bloco de Notas",
+      "device": "Roberty40(PRD)",
+      "averageDuration": 27,
       "scheduleMode": "weekly",
       "weekDays": [
+        0,
         1,
         2,
         3,
         4,
-        5
+        5,
+        6
       ],
-      "timePeriod": [
-        "08:14",
-        "17:15"
-      ],
-      "timeInterval": "15m",
+      "timePeriod": [],
+      "timeInterval": "10m",
       "specificTimes": []
     },
     {
@@ -1469,11 +1469,11 @@
   ],
   "stats": {
     "69e2787acb7a473b1e069353": {
-      "totalRuns": 835,
-      "successRuns": 830,
+      "totalRuns": 834,
+      "successRuns": 829,
       "errorRuns": 5,
-      "totalDuration": 85391,
-      "averageDuration": 102.26467065868263
+      "totalDuration": 85353,
+      "averageDuration": 102.34172661870504
     },
     "69f249b964f708e2768587c1": {
       "totalRuns": 327,
