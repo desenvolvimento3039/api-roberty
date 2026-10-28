@@ -3,19 +3,7 @@
  * SISTEMA DE MONITORAMENTO CORPORATIVO ROBERTY AUTOMATION (RPA)
  * SICOOB SAO MIGUEL - COOP 3039
  * ==============================================================================
- * Coletor de Telemetria, Orquestracao, Servidor Web e Integracao com Grafana
- * 
- * Funcionalidades:
- * 1. Conexao com a API Cloud da Roberty (https://api.roberty.app/v4)
- * 2. Rastreamento de todos os Runners de Producao (Roberty40, Roberty20, UAD01)
- * 3. Mapeamento de Execucoes em Andamento, Agendamentos e Historico de Disparos
- * 4. Geracao automatizada do Painel HTML Interativo Autocontido
- * 5. Endpoints nativos para Grafana:
- *    - /metrics     -> Formato Prometheus / OpenMetrics (Scrape direto no Grafana)
- *    - /api/runs    -> JSON Tabular para Grafana Infinity Plugin
- *    - /api/devices -> Status e saude dos Runners para Grafana Infinity Plugin
- *    - /api/data    -> Payload consolidado de telemetria
- * 6. Suporte a exportacao SQL para ingestao em bancos relacionais (PostgreSQL/MySQL)
+ * Coletor de Telemetria, Orquestracao, Servidor Web (React SPA) e Grafana
  * ==============================================================================
  */
 
@@ -31,10 +19,9 @@ const DEFAULT_CONFIG = {
     apiKey: 'dedf1907a192d4fb35a662f87087f33c99f8bc1cc4a95cd11c77cf7edb0e167e',
     userToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJraW5kIjoiVXNlciIsInRhcmdldCI6IjY5YTcyODAyZWYyYTI5ZmVjNGJhMTg4YSIsImlhdCI6MTc5MTQ3ODc3Ny44NTgsImV4cCI6MTc5NDA3MDc3Ny44NTh9.td8R-KodC2CFR6ypVWro4Y0YF9_vkHF0CKPFo9vjeX4',
     httpPort: 8080,
-    pollIntervalSeconds: 300 // 5 minutos em modo daemon
+    pollIntervalSeconds: 300
 };
 
-// Tentar recuperar token do config local do Studio se existir
 function getLocalStudioToken() {
     try {
         const appData = process.env.APPDATA || '';
@@ -46,7 +33,7 @@ function getLocalStudioToken() {
             }
         }
     } catch (e) {
-        // Fallback para DEFAULT_CONFIG
+        // Fallback
     }
     return DEFAULT_CONFIG.userToken;
 }
@@ -215,7 +202,6 @@ async function collectMonitoringData() {
     const detailedRuns = [];
     const activeRobotsWithRuns = overview.filter(r => r.runId);
 
-    // Amostragem ampla dos robos com historico mais ativo
     for (const r of activeRobotsWithRuns.slice(0, 35)) {
         try {
             const runsRes = await apiGet(`/v4/robots/${r.id}/runs?limit=10`);
@@ -245,11 +231,10 @@ async function collectMonitoringData() {
                 });
             });
         } catch (e) {
-            // Ignora falhas pontuais de robos arquivados
+            // Ignora falhas pontuais
         }
     }
 
-    // Ordenar historico do mais recente para o mais antigo
     detailedRuns.sort((a, b) => new Date(b.startDate || 0) - new Date(a.startDate || 0));
 
     const totalSeconds = ((Date.now() - startTime) / 1000).toFixed(1);
@@ -272,7 +257,7 @@ async function collectMonitoringData() {
     };
 }
 
-// Formatador de Metricas para o Formato Padrao Prometheus (Scrape pelo Grafana / Prometheus)
+// Formatador de Metricas para o Formato Padrao Prometheus
 function generatePrometheusMetrics(data) {
     const lines = [];
 
@@ -332,27 +317,31 @@ function generatePrometheusMetrics(data) {
     return lines.join('\n') + '\n';
 }
 
-// Gerador do Painel HTML Autocontido
-function generateHtmlDashboard(data) {
-    const jsonStr = JSON.stringify(data);
-
-    // Retorna o HTML completo desenvolvido anteriormente
-    const originalGenerator = require('./roberty_collector.js').generateHtmlDashboard;
-    if (originalGenerator && originalGenerator !== generateHtmlDashboard) {
-        return originalGenerator(data);
+function getContentType(filePath) {
+    const ext = path.extname(filePath).toLowerCase();
+    switch (ext) {
+        case '.html': return 'text/html; charset=utf-8';
+        case '.js': return 'application/javascript; charset=utf-8';
+        case '.css': return 'text/css; charset=utf-8';
+        case '.json': return 'application/json; charset=utf-8';
+        case '.svg': return 'image/svg+xml';
+        case '.png': return 'image/png';
+        case '.ico': return 'image/x-icon';
+        default: return 'application/octet-stream';
     }
-    return fs.readFileSync(path.join(__dirname, 'PAINEL_MONITORAMENTO_ROBERTY.html'), 'utf8');
 }
 
-// Iniciar Servidor Web Integrado (com Suporte Direto ao Grafana)
+// Iniciar Servidor Web Integrado
 function startServer(data, port = 8080) {
     let currentData = data;
     const baseDir = __dirname;
-    const htmlPath = path.join(baseDir, 'PAINEL_MONITORAMENTO_ROBERTY.html');
+    const reactDist = path.join(baseDir, 'frontend', 'dist');
+    const legacyHtml = path.join(baseDir, 'PAINEL_MONITORAMENTO_ROBERTY.html');
     const jsonPath = path.join(baseDir, 'roberty_data.json');
 
+    const hasReactDist = fs.existsSync(reactDist) && fs.existsSync(path.join(reactDist, 'index.html'));
+
     const server = http.createServer(async (req, res) => {
-        // Habilitar CORS para o Grafana (permitir chamadas da maquina 194)
         res.setHeader('Access-Control-Allow-Origin', '*');
         res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
         res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization, X-Requested-With');
@@ -363,41 +352,32 @@ function startServer(data, port = 8080) {
             return;
         }
 
-        const url = req.url || '/';
+        const parsedUrl = new URL(req.url || '/', `http://localhost:${port}`);
+        const pathname = parsedUrl.pathname;
 
-        // 1. Dashboard Web HTML
-        if (url === '/' || url === '/index.html') {
-            res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
-            res.end(fs.readFileSync(htmlPath, 'utf8'));
-        }
-        // 2. Metricas Padrao Prometheus (Scrape do Grafana / Prometheus)
-        else if (url === '/metrics') {
+        // 1. Endpoints de API
+        if (pathname === '/metrics') {
             res.writeHead(200, { 'Content-Type': 'text/plain; version=0.0.4; charset=utf-8' });
             res.end(generatePrometheusMetrics(currentData));
-        }
-        // 3. API Tabular de Execucoes (Grafana Infinity Plugin: tipo JSON/Table)
-        else if (url === '/api/runs') {
+            return;
+        } else if (pathname === '/api/runs') {
             res.writeHead(200, { 'Content-Type': 'application/json; charset=utf-8' });
             res.end(JSON.stringify(currentData.runs));
-        }
-        // 4. API de Servidores / Runners (Grafana Infinity Plugin)
-        else if (url === '/api/devices' || url === '/api/servers') {
+            return;
+        } else if (pathname === '/api/devices' || pathname === '/api/servers') {
             res.writeHead(200, { 'Content-Type': 'application/json; charset=utf-8' });
             res.end(JSON.stringify(currentData.devices));
-        }
-        // 5. API de Agendamentos (Grafana Infinity Plugin)
-        else if (url === '/api/schedules') {
+            return;
+        } else if (pathname === '/api/schedules') {
             res.writeHead(200, { 'Content-Type': 'application/json; charset=utf-8' });
             res.end(JSON.stringify(currentData.scheduledSoon));
-        }
-        // 6. API Consolidada Completa
-        else if (url === '/api/data') {
+            return;
+        } else if (pathname === '/api/data') {
             res.writeHead(200, { 'Content-Type': 'application/json; charset=utf-8' });
             res.end(JSON.stringify(currentData));
-        }
-        // 7. Endpoint de Atualizacao Manual / Automatica
-        else if (url === '/api/refresh') {
-            console.log('[INFO] Requisicao de refresh recebida via API...');
+            return;
+        } else if (pathname === '/api/refresh') {
+            console.log('[INFO] Sincronizacao sob demanda solicitada...');
             try {
                 currentData = await collectMonitoringData();
                 fs.writeFileSync(jsonPath, JSON.stringify(currentData, null, 2), 'utf8');
@@ -407,17 +387,37 @@ function startServer(data, port = 8080) {
                 res.writeHead(500, { 'Content-Type': 'application/json' });
                 res.end(JSON.stringify({ error: err.message }));
             }
+            return;
+        }
+
+        // 2. Servir Arquivos Estaticos (React SPA do frontend/dist ou fallback HTML)
+        if (hasReactDist) {
+            let reqPath = path.join(reactDist, pathname === '/' ? 'index.html' : pathname);
+            if (!fs.existsSync(reqPath)) {
+                // SPA fallback para index.html
+                reqPath = path.join(reactDist, 'index.html');
+            }
+            try {
+                const content = fs.readFileSync(reqPath);
+                res.writeHead(200, { 'Content-Type': getContentType(reqPath) });
+                res.end(content);
+                return;
+            } catch {
+                res.writeHead(404, { 'Content-Type': 'text/plain' });
+                res.end('[ERRO] Arquivo nao encontrado');
+                return;
+            }
         } else {
-            res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' });
-            res.end('[ERRO] Endpoint nao encontrado');
+            res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
+            res.end(fs.readFileSync(legacyHtml, 'utf8'));
         }
     });
 
     server.listen(port, '0.0.0.0', () => {
         console.log(`\n==============================================================================`);
-        console.log(`[SUCESSO] Servidor de Telemetria e Integracao com Grafana Iniciado!`);
+        console.log(`[SUCESSO] Servidor de Telemetria e Dashboard React Iniciado!`);
         console.log(`==============================================================================`);
-        console.log(`[WEB] Painel HTML:              http://localhost:${port}/`);
+        console.log(`[REACT APP] Painel Dinamico:    http://localhost:${port}/`);
         console.log(`[GRAFANA] Scrape Prometheus:    http://localhost:${port}/metrics`);
         console.log(`[GRAFANA] Infinity - Execucoes: http://localhost:${port}/api/runs`);
         console.log(`[GRAFANA] Infinity - Servidores:http://localhost:${port}/api/devices`);
@@ -442,6 +442,12 @@ async function main() {
         const jsonPath = path.join(baseDir, 'roberty_data.json');
         fs.writeFileSync(jsonPath, JSON.stringify(data, null, 2), 'utf8');
         console.log(`[OK] Base de dados gerada em: ${jsonPath}`);
+
+        // Atualizar copia no frontend/src tambem
+        const frontendDataPath = path.join(baseDir, 'frontend', 'src', 'roberty_data.json');
+        if (fs.existsSync(path.dirname(frontendDataPath))) {
+            fs.writeFileSync(frontendDataPath, JSON.stringify(data, null, 2), 'utf8');
+        }
 
         if (isServe) {
             startServer(data, port);

@@ -2,10 +2,18 @@ FROM node:20-alpine
 
 WORKDIR /app
 
-# Variaveis de Ambiente Opcionais (com defaults seguros)
 ENV PORT=8080
 ENV NODE_ENV=production
 
+# 1. Instalar dependencias e compilar o Frontend React
+COPY frontend/package.json ./frontend/
+WORKDIR /app/frontend
+RUN npm install
+COPY frontend/ ./
+RUN npm run build
+
+# 2. Preparar aplicacao principal
+WORKDIR /app
 COPY package.json ./
 COPY roberty_collector.js ./
 COPY export_to_sql.js ./

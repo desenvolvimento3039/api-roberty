@@ -1,0 +1,5881 @@
+{
+  "collectedAt": "2026-10-28T18:39:48.294Z",
+  "workspace": {
+    "id": "69665770092003387a6e99f2",
+    "name": "Sicoob São Miguel",
+    "totalRobots": 63
+  },
+  "devices": [
+    {
+      "id": "6a2aae144753f93619d886f7",
+      "name": "Roberty40(PRD)",
+      "online": true,
+      "platform": "WINDOWS",
+      "publicIp": "177.129.79.254",
+      "version": "4.2.7",
+      "stats": {
+        "_id": "null",
+        "seconds": 1619665,
+        "successCount": 13678,
+        "errorCount": 473
+      },
+      "robots": [
+        {
+          "id": "69fd3f8cc9c3c0a2c98172dd",
+          "name": "40 - Abrir e Fechar Bloco de Notas"
+        },
+        {
+          "id": "69dcf00b5f85caa64f9b3d6c",
+          "name": "40 - Liberação Cheque Especial"
+        },
+        {
+          "id": "69f0f337cffb4fc330448f35",
+          "name": "40 - Reclassificação Risco - CRL 001"
+        },
+        {
+          "id": "6a4e92f4e0a326cd91fb86d5",
+          "name": "40 - Reclassificação Risco - CRL 3039"
+        },
+        {
+          "id": "6a43baa02e2c97707b7942aa",
+          "name": "10 - Devolução Cota Mensal - Gatilho manual"
+        },
+        {
+          "id": "6a429c8fcc0f7b9e53dfed17",
+          "name": "10 - CapturarImagemCota"
+        }
+      ]
+    },
+    {
+      "id": "6a3e9a7b81c7c406665f722b",
+      "name": "Roberty20(PRD)",
+      "online": true,
+      "platform": "WINDOWS",
+      "publicIp": "177.129.79.254",
+      "version": "4.2.7",
+      "stats": {
+        "_id": "null",
+        "seconds": 300427,
+        "successCount": 4664,
+        "errorCount": 786
+      },
+      "robots": [
+        {
+          "id": "6a4d07e42db8e3504c7cf8d0",
+          "name": "Desativado  09:00 - 20 - Ubots - Simulações Credito"
+        },
+        {
+          "id": "6a3d5e69710b552cfc9adf42",
+          "name": "40 - CapturaImagemCheque"
+        },
+        {
+          "id": "6a56e396408dff01d5f079f9",
+          "name": "D 10:05 - 20 - Ubots - Cotas Pendentes"
+        },
+        {
+          "id": "6a56e5121c9080c7cb3aae24",
+          "name": "S  14:00 - 20 - Ubots -  Encerramento Conta - Quinta"
+        },
+        {
+          "id": "6a56e5881c9080c7cb3aae46",
+          "name": "D 10:15 - 20 - Ubots - Inad TD 05 dias"
+        },
+        {
+          "id": "6a56e5c71c9080c7cb3aae57",
+          "name": "D 10:10 - 20 - Ubots - Inad AD 05 dias"
+        },
+        {
+          "id": "6a56e5f81c9080c7cb3aae68",
+          "name": "D 10:20 - 20 -Ubots -  Inad Credito 03 dias"
+        },
+        {
+          "id": "6a56e61c1c9080c7cb3aae79",
+          "name": "D 10:25 - 20 - Ubots - Inad Credito 25 dias"
+        },
+        {
+          "id": "6a56e6431c9080c7cb3aae8a",
+          "name": "D 10:30 - 20 - Ubots - Inad Credito 35 dias"
+        },
+        {
+          "id": "6a56e55c1c9080c7cb3aae35",
+          "name": "S 11:00 - 20 - Ubots - Inad Seguros - Ter, Qui"
+        }
+      ]
+    },
+    {
+      "id": "6ac8ed5998b3d5526c9b138d",
+      "name": "Roberty(UAD01)",
+      "online": true,
+      "platform": "WINDOWS",
+      "publicIp": "187.33.160.238",
+      "version": "4.2.7",
+      "stats": {
+        "_id": "null",
+        "seconds": 123129,
+        "successCount": 991,
+        "errorCount": 141
+      },
+      "robots": [
+        {
+          "id": "69f249b964f708e2768587c1",
+          "name": "01 - Desligamento Cooperado Lecom"
+        },
+        {
+          "id": "69e2787acb7a473b1e069353",
+          "name": "01 - Aprovações Conta Capital"
+        },
+        {
+          "id": "6a0c7c78c8bebb5425e38db1",
+          "name": "30 - Carterização Novos Associados - Inativado"
+        },
+        {
+          "id": "69cd25373189a69372b0de7b",
+          "name": "01 - Relatório 7045"
+        },
+        {
+          "id": "69c3c39d1de43b143a68bb1c",
+          "name": "01 - Relatório Fabrica de Limites"
+        },
+        {
+          "id": "6a7f2155dfbf1d88d0e66c3c",
+          "name": "01 - Importacao Aplicacoes LCI LCA"
+        },
+        {
+          "id": "6a68df778c1f58ababa1b36f",
+          "name": "01 - Importacao Dados LCA"
+        },
+        {
+          "id": "6a6a10696f0732ec155741c7",
+          "name": "01 - Importacao Dados LCI"
+        },
+        {
+          "id": "69c5674cce8501c95b4e5503",
+          "name": "01 - Relatorio Ficha Cobrança"
+        },
+        {
+          "id": "69bd876c20a381874c09d994",
+          "name": "01 - Relatorio JUD SICOOB"
+        }
+      ]
+    }
+  ],
+  "runningNow": [
+    {
+      "id": "6a4d5fd47640f986217efb81",
+      "name": "40 - Liberação Cheque Especial",
+      "device": "Roberty40(PRD)",
+      "averageDuration": 1004,
+      "startedAt": "2026-10-28T18:34:08.000Z",
+      "designId": "69dcf00b5f85caa64f9b3d6d"
+    }
+  ],
+  "scheduledSoon": [
+    {
+      "id": "6a2c6e98ed19bb6e2824de5c",
+      "name": "40 - Abrir e Fechar Bloco de Notas",
+      "device": "Roberty40(PRD)",
+      "averageDuration": 27,
+      "scheduleMode": "weekly",
+      "weekDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "timePeriod": [],
+      "timeInterval": "10m",
+      "specificTimes": []
+    },
+    {
+      "id": "6a734eb34541874c6835fb91",
+      "name": "20 - BNDES Vinculação Novo",
+      "device": "Roberty20(PRD)",
+      "averageDuration": 98,
+      "scheduleMode": "weekly",
+      "weekDays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "timePeriod": [
+        "08:15",
+        "17:15"
+      ],
+      "timeInterval": "15m",
+      "specificTimes": []
+    },
+    {
+      "id": "6ac92672c683057d7c780f85",
+      "name": "01 - Aprovações Conta Capital",
+      "device": "Roberty(UAD01)",
+      "averageDuration": 141,
+      "scheduleMode": "weekly",
+      "weekDays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "timePeriod": [
+        "09:00",
+        "17:00"
+      ],
+      "timeInterval": "15m",
+      "specificTimes": []
+    },
+    {
+      "id": "6a95bc8cf76e680289729ffa",
+      "name": "20 - BNDES Enquadramento Novo",
+      "device": "Roberty20(PRD)",
+      "averageDuration": 53,
+      "scheduleMode": "weekly",
+      "weekDays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "timePeriod": [
+        "08:14",
+        "17:15"
+      ],
+      "timeInterval": "15m",
+      "specificTimes": []
+    },
+    {
+      "id": "6a95bcf68dbc09c3c9da2cfe",
+      "name": "20 - BNDES - Acompanhamento",
+      "device": "Roberty20(PRD)",
+      "averageDuration": 22,
+      "scheduleMode": "weekly",
+      "weekDays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "timePeriod": [
+        "08:30",
+        "17:30"
+      ],
+      "timeInterval": "30m",
+      "specificTimes": []
+    },
+    {
+      "id": "6aa1c47b1387463b3299414d",
+      "name": "20 - Seguros Sigas",
+      "device": "Roberty20(PRD)",
+      "averageDuration": 130,
+      "scheduleMode": "weekly",
+      "weekDays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "timePeriod": [],
+      "timeInterval": "N/A",
+      "specificTimes": [
+        "18:30"
+      ]
+    },
+    {
+      "id": "6ac932151e05357c26de5cba",
+      "name": "01 - Relatório 7045",
+      "device": "Roberty(UAD01)",
+      "averageDuration": 153,
+      "scheduleMode": "weekly",
+      "weekDays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "timePeriod": [],
+      "timeInterval": "N/A",
+      "specificTimes": [
+        "06:03",
+        "06:10",
+        "06:15"
+      ]
+    },
+    {
+      "id": "6ad9fbfb0cecffdf68586ed8",
+      "name": "01 - Relatório Estornos Débito Automático",
+      "device": "Roberty(UAD01)",
+      "averageDuration": 88,
+      "scheduleMode": "weekly",
+      "weekDays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "timePeriod": [],
+      "timeInterval": "N/A",
+      "specificTimes": [
+        "06:05",
+        "06:20",
+        "06:50"
+      ]
+    },
+    {
+      "id": "6ace368eba88ae2d797202a1",
+      "name": "01 - Relatório Simulações de Crédito",
+      "device": "Roberty(UAD01)",
+      "averageDuration": 202,
+      "scheduleMode": "weekly",
+      "weekDays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "timePeriod": [],
+      "timeInterval": "N/A",
+      "specificTimes": [
+        "06:10",
+        "06:20",
+        "06:28"
+      ]
+    },
+    {
+      "id": "6ac9387b6b800fe6e3096a48",
+      "name": "01 - Relatório Fabrica de Limites",
+      "device": "Roberty(UAD01)",
+      "averageDuration": 156,
+      "scheduleMode": "weekly",
+      "weekDays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "timePeriod": [],
+      "timeInterval": "N/A",
+      "specificTimes": [
+        "06:12",
+        "06:22",
+        "06:28"
+      ]
+    },
+    {
+      "id": "6ace47eb38ad0ed93cff6b6c",
+      "name": "01 - Relatórios Risco",
+      "device": "Roberty(UAD01)",
+      "averageDuration": 475,
+      "scheduleMode": "weekly",
+      "weekDays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "timePeriod": [],
+      "timeInterval": "N/A",
+      "specificTimes": [
+        "06:30",
+        "06:40",
+        "06:50"
+      ]
+    },
+    {
+      "id": "6aaa6bad0dbed1915d8a60ad",
+      "name": "20 - Download de convênios",
+      "device": "Roberty20(PRD)",
+      "averageDuration": 55,
+      "scheduleMode": "weekly",
+      "weekDays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "timePeriod": [],
+      "timeInterval": "N/A",
+      "specificTimes": [
+        "07:00",
+        "07:10",
+        "07:20"
+      ]
+    },
+    {
+      "id": "6ace04c726987de16c420337",
+      "name": "01 - Importacao Dados LCA",
+      "device": "Roberty(UAD01)",
+      "averageDuration": 92,
+      "scheduleMode": "weekly",
+      "weekDays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "timePeriod": [],
+      "timeInterval": "N/A",
+      "specificTimes": [
+        "07:10",
+        "07:20",
+        "07:30"
+      ]
+    },
+    {
+      "id": "6ace051726987de16c420346",
+      "name": "01 - Importacao Dados LCI",
+      "device": "Roberty(UAD01)",
+      "averageDuration": 238,
+      "scheduleMode": "weekly",
+      "weekDays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "timePeriod": [],
+      "timeInterval": "N/A",
+      "specificTimes": [
+        "07:12",
+        "07:22",
+        "07:32"
+      ]
+    },
+    {
+      "id": "6ace047126987de16c420321",
+      "name": "01 - Importacao Aplicacoes LCI LCA",
+      "device": "Roberty(UAD01)",
+      "averageDuration": 105,
+      "scheduleMode": "weekly",
+      "weekDays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "timePeriod": [],
+      "timeInterval": "N/A",
+      "specificTimes": [
+        "07:15",
+        "07:25",
+        "07:35"
+      ]
+    },
+    {
+      "id": "6ad9fb890cecffdf68586ec8",
+      "name": "01 - Relatório Câmbio",
+      "device": "Roberty(UAD01)",
+      "averageDuration": 30,
+      "scheduleMode": "weekly",
+      "weekDays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "timePeriod": [],
+      "timeInterval": "N/A",
+      "specificTimes": [
+        "07:30",
+        "07:40",
+        "07:50"
+      ]
+    },
+    {
+      "id": "6ae22ce402e600b389b899aa",
+      "name": "20 - 09:10 Inad Consclic",
+      "device": "Roberty20(PRD)",
+      "averageDuration": 0,
+      "scheduleMode": "weekly",
+      "weekDays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "timePeriod": [],
+      "timeInterval": "N/A",
+      "specificTimes": [
+        "09:10"
+      ]
+    },
+    {
+      "id": "6a57a43904dbed914d813b96",
+      "name": "D 10:05 - 20 - Ubots - Cotas Pendentes",
+      "device": "Roberty20(PRD)",
+      "averageDuration": 13,
+      "scheduleMode": "weekly",
+      "weekDays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "timePeriod": [],
+      "timeInterval": "N/A",
+      "specificTimes": [
+        "10:05"
+      ]
+    },
+    {
+      "id": "6a5a281074e9d96a44fc452c",
+      "name": "D 10:10 - 20 - Ubots - Inad AD 05 dias",
+      "device": "Roberty20(PRD)",
+      "averageDuration": 147,
+      "scheduleMode": "weekly",
+      "weekDays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "timePeriod": [],
+      "timeInterval": "N/A",
+      "specificTimes": [
+        "10:10"
+      ]
+    },
+    {
+      "id": "6a592cf97d68dec2456cebe7",
+      "name": "D 10:15 - 20 - Ubots - Inad TD 05 dias",
+      "device": "Roberty20(PRD)",
+      "averageDuration": 78,
+      "scheduleMode": "weekly",
+      "weekDays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "timePeriod": [],
+      "timeInterval": "N/A",
+      "specificTimes": [
+        "10:15"
+      ]
+    },
+    {
+      "id": "6a5c2ea804534ad6bf283059",
+      "name": "D 10:20 - 20 -Ubots -  Inad Credito 03 dias",
+      "device": "Roberty20(PRD)",
+      "averageDuration": 405,
+      "scheduleMode": "weekly",
+      "weekDays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "timePeriod": [],
+      "timeInterval": "N/A",
+      "specificTimes": [
+        "10:20"
+      ]
+    },
+    {
+      "id": "6a5c357078e2d1099e41a0c0",
+      "name": "D 10:25 - 20 - Ubots - Inad Credito 25 dias",
+      "device": "Roberty20(PRD)",
+      "averageDuration": 115,
+      "scheduleMode": "weekly",
+      "weekDays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "timePeriod": [],
+      "timeInterval": "N/A",
+      "specificTimes": [
+        "10:25"
+      ]
+    },
+    {
+      "id": "6a5c36f255cb394d6f93cb4f",
+      "name": "D 10:30 - 20 - Ubots - Inad Credito 35 dias",
+      "device": "Roberty20(PRD)",
+      "averageDuration": 142,
+      "scheduleMode": "weekly",
+      "weekDays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "timePeriod": [],
+      "timeInterval": "N/A",
+      "specificTimes": [
+        "10:30"
+      ]
+    },
+    {
+      "id": "6ae20315c90eaacd57cfccbf",
+      "name": "D 11:20 - 20 - Relatorio Etica e Integridade",
+      "device": "Roberty(UAD01)",
+      "averageDuration": 65,
+      "scheduleMode": "weekly",
+      "weekDays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "timePeriod": [],
+      "timeInterval": "N/A",
+      "specificTimes": [
+        "11:20"
+      ]
+    },
+    {
+      "id": "6ae202aac90eaacd57cfcc9f",
+      "name": "D 11:35 20 - Relatorio Consorcio",
+      "device": "Roberty(UAD01)",
+      "averageDuration": 138,
+      "scheduleMode": "weekly",
+      "weekDays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "timePeriod": [],
+      "timeInterval": "N/A",
+      "specificTimes": [
+        "11:50"
+      ]
+    },
+    {
+      "id": "6ae201e2c90eaacd57cfcc70",
+      "name": "D 11:00 - 20 - Relatórios Embaixador Sicoob",
+      "device": "Roberty(UAD01)",
+      "averageDuration": 40,
+      "scheduleMode": "weekly",
+      "weekDays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "timePeriod": [],
+      "timeInterval": "N/A",
+      "specificTimes": [
+        "11:59"
+      ]
+    },
+    {
+      "id": "6ae0f1363ee06e2883440c4c",
+      "name": "Roberty - Carteira de Credito - Baixa de Saldos e Liberacoes BRDE",
+      "device": "Roberty20(PRD)",
+      "averageDuration": 0,
+      "scheduleMode": "weekly",
+      "weekDays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "timePeriod": [],
+      "timeInterval": "N/A",
+      "specificTimes": [
+        "12:00"
+      ]
+    },
+    {
+      "id": "6a57cc700016f95a3332ff12",
+      "name": "S  14:00 - 20 - Ubots -  Encerramento Conta - Quinta",
+      "device": "Roberty20(PRD)",
+      "averageDuration": 96,
+      "scheduleMode": "weekly",
+      "weekDays": [
+        4
+      ],
+      "timePeriod": [],
+      "timeInterval": "N/A",
+      "specificTimes": [
+        "14:00"
+      ]
+    }
+  ],
+  "overview": [
+    {
+      "id": "69dcf00b5f85caa64f9b3d6c",
+      "name": "40 - Liberação Cheque Especial",
+      "device": "Roberty40(PRD)",
+      "runId": "6ae24020c4b9eac38e3d0a7d",
+      "startDate": "2026-10-28T18:34:08.747Z",
+      "endDate": null,
+      "duration": 0,
+      "success": false
+    },
+    {
+      "id": "69fd3f8cc9c3c0a2c98172dd",
+      "name": "40 - Abrir e Fechar Bloco de Notas",
+      "device": "Roberty40(PRD)",
+      "runId": "6ae24005c4b9eac38e3cf325",
+      "startDate": "2026-10-28T18:33:41.000Z",
+      "endDate": "2026-10-28T18:34:07.000Z",
+      "duration": 26,
+      "success": true
+    },
+    {
+      "id": "69e2787acb7a473b1e069353",
+      "name": "01 - Aprovações Conta Capital",
+      "device": "Roberty(UAD01)",
+      "runId": "6ae23feac4b9eac38e3cdbc7",
+      "startDate": "2026-10-28T18:33:14.000Z",
+      "endDate": "2026-10-28T18:38:13.000Z",
+      "duration": 299,
+      "success": false
+    },
+    {
+      "id": "69d5068fcd11ec868735fb0a",
+      "name": "20 - BNDES - Acompanhamento",
+      "device": "Roberty20(PRD)",
+      "runId": "6ae23fe2c4b9eac38e3cd4f8",
+      "startDate": "2026-10-28T18:33:05.000Z",
+      "endDate": "2026-10-28T18:33:19.000Z",
+      "duration": 14,
+      "success": true
+    },
+    {
+      "id": "6a6a35c12aabdd8fd3b65e99",
+      "name": "20 - BNDES Enquadramento Novo",
+      "device": "Roberty20(PRD)",
+      "runId": "6ae23fdac4b9eac38e3ccb2d",
+      "startDate": "2026-10-28T18:32:57.000Z",
+      "endDate": "2026-10-28T18:33:05.000Z",
+      "duration": 8,
+      "success": true
+    },
+    {
+      "id": "6a6b52f70a210e12cc6dbecb",
+      "name": "20 - BNDES Vinculação Novo",
+      "device": "Roberty20(PRD)",
+      "runId": "6ae23f64c4b9eac38e3c5cdc",
+      "startDate": "2026-10-28T18:30:59.000Z",
+      "endDate": "2026-10-28T18:32:56.000Z",
+      "duration": 117,
+      "success": false
+    },
+    {
+      "id": "69f249b964f708e2768587c1",
+      "name": "01 - Desligamento Cooperado Lecom",
+      "device": "Roberty(UAD01)",
+      "runId": "6ae2382cc4b9eac38e367401",
+      "startDate": "2026-10-28T18:00:12.000Z",
+      "endDate": "2026-10-28T18:00:31.000Z",
+      "duration": 19,
+      "success": true
+    },
+    {
+      "id": "6a50f383674eca6f007f3392",
+      "name": "D 11:20 - 20 - Relatorio Etica e Integridade",
+      "device": "Roberty20(PRD)",
+      "runId": "6ae22862c4b9eac38e29fe55",
+      "startDate": "2026-10-28T16:52:50.000Z",
+      "endDate": "2026-10-28T16:57:13.000Z",
+      "duration": 263,
+      "success": true
+    },
+    {
+      "id": "6a4e92f4e0a326cd91fb86d5",
+      "name": "40 - Reclassificação Risco - CRL 3039",
+      "device": "Roberty40(PRD)",
+      "runId": "6ae21505c4b9eac38e1c834c",
+      "startDate": "2026-10-28T15:30:13.000Z",
+      "endDate": "2026-10-28T17:18:26.000Z",
+      "duration": 6493,
+      "success": false
+    },
+    {
+      "id": "6adf5ca585dac0936f94a120",
+      "name": "Roberty - Carteira de Credito - Baixa de Saldos e Liberacoes BRDE",
+      "device": "N/A",
+      "runId": "6ae20faac4b9eac38e18b4e2",
+      "startDate": "2026-10-28T15:07:21.000Z",
+      "endDate": "2026-10-28T15:07:21.000Z",
+      "duration": 0,
+      "success": false
+    },
+    {
+      "id": "6a4fe0a282ad17677ca769f6",
+      "name": "D 11:00 - 20 - Relatórios Embaixador Sicoob",
+      "device": "Roberty20(PRD)",
+      "runId": "6ae20dbec4b9eac38e174685",
+      "startDate": "2026-10-28T14:59:10.000Z",
+      "endDate": "2026-10-28T14:59:31.000Z",
+      "duration": 21,
+      "success": true
+    },
+    {
+      "id": "6a50fbb60d04f6e6cd98e1a5",
+      "name": "D 11:35 20 - Relatorio Consorcio",
+      "device": "Roberty20(PRD)",
+      "runId": "6ae20ba8c4b9eac38e159e04",
+      "startDate": "2026-10-28T14:50:15.000Z",
+      "endDate": "2026-10-28T14:54:50.000Z",
+      "duration": 275,
+      "success": true
+    },
+    {
+      "id": "6a848e2863313f843eb316ed",
+      "name": "S 11:30 - 20 - Ubots - Cancelamento Seguros - Qua",
+      "device": "Roberty20(PRD)",
+      "runId": "6ae208f3c4b9eac38e13a390",
+      "startDate": "2026-10-28T14:38:42.000Z",
+      "endDate": "2026-10-28T14:39:28.000Z",
+      "duration": 46,
+      "success": false
+    },
+    {
+      "id": "6a51018f1f7e527fed816962",
+      "name": "D 11:30 - 20 - Relatorio Educacao Financeira",
+      "device": "Roberty20(PRD)",
+      "runId": "6ae2076dc4b9eac38e128bec",
+      "startDate": "2026-10-28T14:32:13.000Z",
+      "endDate": "2026-10-28T14:32:13.000Z",
+      "duration": 0,
+      "success": false
+    },
+    {
+      "id": "6a50f7fed33d7bc41dabab93",
+      "name": "D 11:10 - 20 - Relatorio Riscos e Controles Singulares",
+      "device": "Roberty20(PRD)",
+      "runId": "6ae20421c4b9eac38e0fe77e",
+      "startDate": "2026-10-28T14:18:08.000Z",
+      "endDate": "2026-10-28T14:18:09.000Z",
+      "duration": 1,
+      "success": false
+    },
+    {
+      "id": "6a50fe0d55f7991ca7e31baa",
+      "name": "D 11:15 - 20 - Relatorio Publico",
+      "device": "Roberty20(PRD)",
+      "runId": "6ae2039cc4b9eac38e0f5dfc",
+      "startDate": "2026-10-28T14:15:55.000Z",
+      "endDate": "2026-10-28T14:17:02.000Z",
+      "duration": 67,
+      "success": false
+    },
+    {
+      "id": "6a56e6431c9080c7cb3aae8a",
+      "name": "D 10:30 - 20 - Ubots - Inad Credito 35 dias",
+      "device": "Roberty20(PRD)",
+      "runId": "6ae1f90fc4b9eac38e063bb4",
+      "startDate": "2026-10-28T13:30:54.000Z",
+      "endDate": "2026-10-28T13:31:18.000Z",
+      "duration": 24,
+      "success": true
+    },
+    {
+      "id": "6a56e61c1c9080c7cb3aae79",
+      "name": "D 10:25 - 20 - Ubots - Inad Credito 25 dias",
+      "device": "Roberty20(PRD)",
+      "runId": "6ae1f803c4b9eac38e055281",
+      "startDate": "2026-10-28T13:26:26.000Z",
+      "endDate": "2026-10-28T13:27:37.000Z",
+      "duration": 71,
+      "success": true
+    },
+    {
+      "id": "6a56e5f81c9080c7cb3aae68",
+      "name": "D 10:20 - 20 -Ubots -  Inad Credito 03 dias",
+      "device": "Roberty20(PRD)",
+      "runId": "6ae1f7f4c4b9eac38e054919",
+      "startDate": "2026-10-28T13:26:11.000Z",
+      "endDate": "2026-10-28T13:26:26.000Z",
+      "duration": 15,
+      "success": true
+    },
+    {
+      "id": "6a56e5881c9080c7cb3aae46",
+      "name": "D 10:15 - 20 - Ubots - Inad TD 05 dias",
+      "device": "Roberty20(PRD)",
+      "runId": "6ae1f58bc4b9eac38e03523e",
+      "startDate": "2026-10-28T13:15:54.000Z",
+      "endDate": "2026-10-28T13:17:08.000Z",
+      "duration": 74,
+      "success": true
+    },
+    {
+      "id": "6a56e5c71c9080c7cb3aae57",
+      "name": "D 10:10 - 20 - Ubots - Inad AD 05 dias",
+      "device": "Roberty20(PRD)",
+      "runId": "6ae1f45fc4b9eac38e02539c",
+      "startDate": "2026-10-28T13:10:54.000Z",
+      "endDate": "2026-10-28T13:12:03.000Z",
+      "duration": 69,
+      "success": true
+    },
+    {
+      "id": "6a56e396408dff01d5f079f9",
+      "name": "D 10:05 - 20 - Ubots - Cotas Pendentes",
+      "device": "Roberty20(PRD)",
+      "runId": "6ae1f332c4b9eac38e01804d",
+      "startDate": "2026-10-28T13:05:54.000Z",
+      "endDate": "2026-10-28T13:06:10.000Z",
+      "duration": 16,
+      "success": true
+    },
+    {
+      "id": "69df96b41841d175877bdec2",
+      "name": "20 - Download de convênios",
+      "device": "Roberty20(PRD)",
+      "runId": "6ae1e83ec4b9eac38ef7cca5",
+      "startDate": "2026-10-28T12:19:09.000Z",
+      "endDate": "2026-10-28T12:20:56.000Z",
+      "duration": 107,
+      "success": true
+    },
+    {
+      "id": "69c5674cce8501c95b4e5503",
+      "name": "01 - Relatorio Ficha Cobrança",
+      "device": "Roberty(UAD01)",
+      "runId": "6ae1ddfdc4b9eac38eee05db",
+      "startDate": "2026-10-28T11:35:24.000Z",
+      "endDate": "2026-10-28T11:35:35.000Z",
+      "duration": 11,
+      "success": true
+    },
+    {
+      "id": "69c68d47b8206691e25fd7cc",
+      "name": "01 - Relatório Câmbio",
+      "device": "Roberty(UAD01)",
+      "runId": "6ae1d370c4b9eac38ee34fb6",
+      "startDate": "2026-10-28T10:50:24.000Z",
+      "endDate": "2026-10-28T10:50:44.000Z",
+      "duration": 20,
+      "success": true
+    },
+    {
+      "id": "6a7f2155dfbf1d88d0e66c3c",
+      "name": "01 - Importacao Aplicacoes LCI LCA",
+      "device": "Roberty(UAD01)",
+      "runId": "6ae1d1f2c4b9eac38ee22c61",
+      "startDate": "2026-10-28T10:44:01.000Z",
+      "endDate": "2026-10-28T10:44:12.000Z",
+      "duration": 11,
+      "success": true
+    },
+    {
+      "id": "6a6a10696f0732ec155741c7",
+      "name": "01 - Importacao Dados LCI",
+      "device": "Roberty(UAD01)",
+      "runId": "6ae1cf4ec4b9eac38ee0a55f",
+      "startDate": "2026-10-28T10:32:46.000Z",
+      "endDate": "2026-10-28T10:42:21.000Z",
+      "duration": 575,
+      "success": false
+    },
+    {
+      "id": "6a68df778c1f58ababa1b36f",
+      "name": "01 - Importacao Dados LCA",
+      "device": "Roberty(UAD01)",
+      "runId": "6ae1cf42c4b9eac38ee099c9",
+      "startDate": "2026-10-28T10:32:33.000Z",
+      "endDate": "2026-10-28T10:32:44.000Z",
+      "duration": 11,
+      "success": true
+    },
+    {
+      "id": "6a6a158941de8fd49d45e070",
+      "name": "01 - Relatório Estornos Débito Automático",
+      "device": "Roberty(UAD01)",
+      "runId": "6ae1ca24c4b9eac38edda85d",
+      "startDate": "2026-10-28T10:10:43.000Z",
+      "endDate": "2026-10-28T10:11:36.000Z",
+      "duration": 53,
+      "success": true
+    },
+    {
+      "id": "69b816639a73e49fab6ecf7b",
+      "name": "01 - Relatórios Risco",
+      "device": "Roberty(UAD01)",
+      "runId": "6ae1ca18c4b9eac38edda063",
+      "startDate": "2026-10-28T10:10:32.000Z",
+      "endDate": "2026-10-28T10:10:43.000Z",
+      "duration": 11,
+      "success": true
+    },
+    {
+      "id": "69bacd43bd7aecca5bfae786",
+      "name": "01 - Relatorios Parcelas Inadimplentes",
+      "device": "Roberty(UAD01)",
+      "runId": "6ae1c6d4c4b9eac38edbc43b",
+      "startDate": "2026-10-28T09:56:35.000Z",
+      "endDate": "2026-10-28T10:10:31.000Z",
+      "duration": 836,
+      "success": true
+    },
+    {
+      "id": "69bd876c20a381874c09d994",
+      "name": "01 - Relatorio JUD SICOOB",
+      "device": "Roberty(UAD01)",
+      "runId": "6ae1c6c9c4b9eac38edbbd41",
+      "startDate": "2026-10-28T09:56:24.000Z",
+      "endDate": "2026-10-28T09:56:35.000Z",
+      "duration": 11,
+      "success": true
+    },
+    {
+      "id": "69fa0a6be077d3c2af3fb61e",
+      "name": "01 - Relatório Simulações de Crédito",
+      "device": "Roberty(UAD01)",
+      "runId": "6ae1c1c4c4b9eac38ed90a98",
+      "startDate": "2026-10-28T09:35:00.000Z",
+      "endDate": "2026-10-28T09:35:10.000Z",
+      "duration": 10,
+      "success": true
+    },
+    {
+      "id": "69c3c39d1de43b143a68bb1c",
+      "name": "01 - Relatório Fabrica de Limites",
+      "device": "Roberty(UAD01)",
+      "runId": "6ae1c11ec4b9eac38ed8b09c",
+      "startDate": "2026-10-28T09:32:14.000Z",
+      "endDate": "2026-10-28T09:34:48.000Z",
+      "duration": 154,
+      "success": true
+    },
+    {
+      "id": "69f0f337cffb4fc330448f35",
+      "name": "40 - Reclassificação Risco - CRL 001",
+      "device": "Roberty40(PRD)",
+      "runId": "6ae1bf26c4b9eac38ed79fd2",
+      "startDate": "2026-10-28T09:23:49.000Z",
+      "endDate": "2026-10-28T11:29:10.000Z",
+      "duration": 7521,
+      "success": true
+    },
+    {
+      "id": "69cd25373189a69372b0de7b",
+      "name": "01 - Relatório 7045",
+      "device": "Roberty(UAD01)",
+      "runId": "6ae1be26c4b9eac38ed708b8",
+      "startDate": "2026-10-28T09:19:34.000Z",
+      "endDate": "2026-10-28T09:19:45.000Z",
+      "duration": 11,
+      "success": true
+    },
+    {
+      "id": "6a0c4d66b04af055981ce61e",
+      "name": "20 - Seguros Sigas",
+      "device": "Roberty20(PRD)",
+      "runId": "6ae11804c4b9eac38e80546e",
+      "startDate": "2026-10-27T21:30:44.000Z",
+      "endDate": "2026-10-27T21:32:46.000Z",
+      "duration": 122,
+      "success": true
+    },
+    {
+      "id": "6a56e55c1c9080c7cb3aae35",
+      "name": "S 11:00 - 20 - Ubots - Inad Seguros - Ter, Qui",
+      "device": "Roberty20(PRD)",
+      "runId": "6ae0f4dbc4b9eac38e671307",
+      "startDate": "2026-10-27T19:00:43.000Z",
+      "endDate": "2026-10-27T19:00:50.000Z",
+      "duration": 7,
+      "success": true
+    },
+    {
+      "id": "6abd1d15dce9d9048fe77c0c",
+      "name": "01 - Download Arquivo Badesc",
+      "device": "Roberty(UAD01)",
+      "runId": "6ae0f2d9c4b9eac38e6573a1",
+      "startDate": "2026-10-27T18:52:08.000Z",
+      "endDate": "2026-10-27T18:52:49.000Z",
+      "duration": 41,
+      "success": true
+    },
+    {
+      "id": "6a4d07e42db8e3504c7cf8d0",
+      "name": "Desativado  09:00 - 20 - Ubots - Simulações Credito",
+      "device": "Roberty20(PRD)",
+      "runId": "6ae0ae85e8e077c4c170fef6",
+      "startDate": "2026-10-27T14:00:37.000Z",
+      "endDate": "2026-10-27T14:00:43.000Z",
+      "duration": 6,
+      "success": false
+    },
+    {
+      "id": "6a43baa02e2c97707b7942aa",
+      "name": "10 - Devolução Cota Mensal - Gatilho manual",
+      "device": "Roberty40(PRD)",
+      "runId": "6adfb07ce8e077c4c1ddf873",
+      "startDate": "2026-10-26T19:56:44.000Z",
+      "endDate": "2026-10-26T20:03:50.000Z",
+      "duration": 426,
+      "success": true
+    },
+    {
+      "id": "6a56e5121c9080c7cb3aae24",
+      "name": "S  14:00 - 20 - Ubots -  Encerramento Conta - Quinta",
+      "device": "Roberty20(PRD)",
+      "runId": "6ada4123e8e077c4c1b7464b",
+      "startDate": "2026-10-22T17:00:18.000Z",
+      "endDate": "2026-10-22T17:02:23.000Z",
+      "duration": 125,
+      "success": true
+    },
+    {
+      "id": "6aa9a152bf5cf85cb6a8c0dc",
+      "name": "01 - Desligamento Cooperado Manual Excel",
+      "device": "Roberty(UAD01)",
+      "runId": "6ad8d4dee8e077c4c1afc6ce",
+      "startDate": "2026-10-21T15:06:05.000Z",
+      "endDate": "2026-10-21T15:30:55.000Z",
+      "duration": 1490,
+      "success": true
+    },
+    {
+      "id": "6a0c7c78c8bebb5425e38db1",
+      "name": "30 - Carterização Novos Associados - Inativado",
+      "device": "Roberty(UAD01)",
+      "runId": "6ad670c4d802d44ebd28f7ad",
+      "startDate": "2026-10-19T19:34:28.000Z",
+      "endDate": "2026-10-19T19:39:59.000Z",
+      "duration": 331,
+      "success": true
+    },
+    {
+      "id": "6a18a80416b5426d03719456",
+      "name": "10 - Abrir  e Fechar Bloco Notas",
+      "device": "Roberty(UAD01)",
+      "runId": "6ac77ecad802d44ebd3c429e",
+      "startDate": "2026-10-08T11:30:18.000Z",
+      "endDate": "2026-10-08T11:30:46.000Z",
+      "duration": 28,
+      "success": true
+    },
+    {
+      "id": "6a75c16ddb9028cf86cd78c2",
+      "name": "20 - Conjuntos Analitico",
+      "device": "Roberty20(PRD)",
+      "runId": "6a88a1dee07a98a81f60a37d",
+      "startDate": "2026-08-21T19:07:10.000Z",
+      "endDate": "2026-08-21T19:29:20.000Z",
+      "duration": 1330,
+      "success": true
+    },
+    {
+      "id": "6a6ce615cbf3463804f31bd7",
+      "name": "Teste Simulação ubots",
+      "device": "N/A",
+      "runId": "6a707fdcf9b313b5613605d4",
+      "startDate": "2026-08-03T11:47:39.000Z",
+      "endDate": "2026-08-03T11:47:46.000Z",
+      "duration": 7,
+      "success": true
+    },
+    {
+      "id": "6a6ceda3203f7716a2ce2864",
+      "name": "Teste Inad 3",
+      "device": "N/A",
+      "runId": "6a6cf4d2f9b313b561764137",
+      "startDate": "2026-07-31T19:17:38.000Z",
+      "endDate": "2026-07-31T19:17:47.000Z",
+      "duration": 9,
+      "success": true
+    },
+    {
+      "id": "6a63c4c1f09f86469a1aa500",
+      "name": "Envio Email",
+      "device": "N/A",
+      "runId": "6a67a21f290b4aeee52a8956",
+      "startDate": "2026-07-27T18:23:27.000Z",
+      "endDate": "2026-07-27T18:23:33.000Z",
+      "duration": 6,
+      "success": true
+    },
+    {
+      "id": "6a036b34f022bf2b7e04c993",
+      "name": "Abrir Consignado",
+      "device": "N/A",
+      "runId": "6a592626b576905c62baf02a",
+      "startDate": "2026-07-16T18:42:46.000Z",
+      "endDate": "2026-07-16T18:46:07.000Z",
+      "duration": 201,
+      "success": true
+    },
+    {
+      "id": "69d532d0882baa4c3be498bd",
+      "name": "10 - Gatilho Manual - Devolução Cota Anual",
+      "device": "Roberty(UAD01)",
+      "runId": "6a42d1ba53a443f5ff24769d",
+      "startDate": "2026-06-29T20:12:42.000Z",
+      "endDate": "2026-06-29T20:14:11.000Z",
+      "duration": 89,
+      "success": true
+    },
+    {
+      "id": "6978f52d3f7ace391740eaff",
+      "name": "10 - BNDES - Vinculação Desativado",
+      "device": "Roberty(UAD01)",
+      "runId": "6a2315cadee2e3969cee808e",
+      "startDate": "2026-06-05T18:30:33.000Z",
+      "endDate": "2026-06-05T18:30:44.000Z",
+      "duration": 11,
+      "success": true
+    },
+    {
+      "id": "69fe3d6895be4818dc2c745a",
+      "name": "API Lecom rejeitar",
+      "device": "N/A",
+      "runId": null,
+      "startDate": null,
+      "endDate": null,
+      "duration": null,
+      "success": null
+    },
+    {
+      "id": "6a30ad33a647bd6fb2f2eaab",
+      "name": "Manipular Excel",
+      "device": "N/A",
+      "runId": null,
+      "startDate": null,
+      "endDate": null,
+      "duration": null,
+      "success": null
+    },
+    {
+      "id": "6a3d5e69710b552cfc9adf42",
+      "name": "40 - CapturaImagemCheque",
+      "device": "Roberty20(PRD)",
+      "runId": null,
+      "startDate": null,
+      "endDate": null,
+      "duration": null,
+      "success": null
+    },
+    {
+      "id": "6a429c8fcc0f7b9e53dfed17",
+      "name": "10 - CapturarImagemCota",
+      "device": "Roberty40(PRD)",
+      "runId": null,
+      "startDate": null,
+      "endDate": null,
+      "duration": null,
+      "success": null
+    },
+    {
+      "id": "6ac7cc551da76b186fa25eff",
+      "name": "Lançamento Honras e Avais ",
+      "device": "N/A",
+      "runId": null,
+      "startDate": null,
+      "endDate": null,
+      "duration": null,
+      "success": null
+    },
+    {
+      "id": "6ad75478ddadb09207a47f57",
+      "name": "Aprovação Honras e Avais",
+      "device": "N/A",
+      "runId": null,
+      "startDate": null,
+      "endDate": null,
+      "duration": null,
+      "success": null
+    },
+    {
+      "id": "6ad8d9e092adbef39e35077e",
+      "name": "Ativação RDC Automático - RoboB",
+      "device": "N/A",
+      "runId": null,
+      "startDate": null,
+      "endDate": null,
+      "duration": null,
+      "success": null
+    },
+    {
+      "id": "6ad8da3292adbef39e35078f",
+      "name": "Ativação RDC Automático - RoboA",
+      "device": "N/A",
+      "runId": null,
+      "startDate": null,
+      "endDate": null,
+      "duration": null,
+      "success": null
+    },
+    {
+      "id": "6ad8f48a64e6762f48e5624c",
+      "name": "Ativação RDC Automático - Pós 09",
+      "device": "N/A",
+      "runId": null,
+      "startDate": null,
+      "endDate": null,
+      "duration": null,
+      "success": null
+    },
+    {
+      "id": "6ae0b9f5323f4a51c7eddb5e",
+      "name": "ROBO 3 - usuario Padrão",
+      "device": "N/A",
+      "runId": null,
+      "startDate": null,
+      "endDate": null,
+      "duration": null,
+      "success": null
+    },
+    {
+      "id": "6ae200db6f930fbd2077347b",
+      "name": "20 - 09:10 Inad Consclic",
+      "device": "Roberty20(PRD)",
+      "runId": null,
+      "startDate": null,
+      "endDate": null,
+      "duration": null,
+      "success": null
+    }
+  ],
+  "recentErrors": [
+    {
+      "id": "69e2787acb7a473b1e069353",
+      "name": "01 - Aprovações Conta Capital",
+      "device": "Roberty(UAD01)",
+      "runId": "6ae23feac4b9eac38e3cdbc7",
+      "startDate": "2026-10-28T18:33:14.000Z",
+      "endDate": "2026-10-28T18:38:13.000Z",
+      "duration": 299,
+      "success": false,
+      "markAsSolved": false
+    },
+    {
+      "id": "6a6b52f70a210e12cc6dbecb",
+      "name": "20 - BNDES Vinculação Novo",
+      "device": "Roberty20(PRD)",
+      "runId": "6ae23f64c4b9eac38e3c5cdc",
+      "startDate": "2026-10-28T18:30:59.000Z",
+      "endDate": "2026-10-28T18:32:56.000Z",
+      "duration": 117,
+      "success": false,
+      "markAsSolved": false
+    },
+    {
+      "id": "6a4e92f4e0a326cd91fb86d5",
+      "name": "40 - Reclassificação Risco - CRL 3039",
+      "device": "Roberty40(PRD)",
+      "runId": "6ae21505c4b9eac38e1c834c",
+      "startDate": "2026-10-28T15:30:13.000Z",
+      "endDate": "2026-10-28T17:18:26.000Z",
+      "duration": 6493,
+      "success": false,
+      "markAsSolved": false
+    },
+    {
+      "id": "6adf5ca585dac0936f94a120",
+      "name": "Roberty - Carteira de Credito - Baixa de Saldos e Liberacoes BRDE",
+      "device": "Roberty20(PRD)",
+      "runId": "6ae20faac4b9eac38e18b4e2",
+      "startDate": "2026-10-28T15:07:21.000Z",
+      "endDate": "2026-10-28T15:07:21.000Z",
+      "duration": 0,
+      "success": false,
+      "markAsSolved": false
+    },
+    {
+      "id": "6a848e2863313f843eb316ed",
+      "name": "S 11:30 - 20 - Ubots - Cancelamento Seguros - Qua",
+      "device": "Roberty20(PRD)",
+      "runId": "6ae208f3c4b9eac38e13a390",
+      "startDate": "2026-10-28T14:38:42.000Z",
+      "endDate": "2026-10-28T14:39:28.000Z",
+      "duration": 46,
+      "success": false,
+      "markAsSolved": false
+    },
+    {
+      "id": "6a50f383674eca6f007f3392",
+      "name": "D 11:20 - 20 - Relatorio Etica e Integridade",
+      "device": "Roberty20(PRD)",
+      "runId": "6ae204c8c4b9eac38e1080fa",
+      "startDate": "2026-10-28T14:20:55.000Z",
+      "endDate": "2026-10-28T14:22:05.000Z",
+      "duration": 70,
+      "success": false,
+      "markAsSolved": false
+    },
+    {
+      "id": "6a50fe0d55f7991ca7e31baa",
+      "name": "D 11:15 - 20 - Relatorio Publico",
+      "device": "Roberty20(PRD)",
+      "runId": "6ae2039cc4b9eac38e0f5dfc",
+      "startDate": "2026-10-28T14:15:55.000Z",
+      "endDate": "2026-10-28T14:17:02.000Z",
+      "duration": 67,
+      "success": false,
+      "markAsSolved": false
+    },
+    {
+      "id": "6a50f7fed33d7bc41dabab93",
+      "name": "D 11:10 - 20 - Relatorio Riscos e Controles Singulares",
+      "device": "Roberty20(PRD)",
+      "runId": "6ae20270c4b9eac38e0e4910",
+      "startDate": "2026-10-28T14:10:55.000Z",
+      "endDate": "2026-10-28T14:11:39.000Z",
+      "duration": 44,
+      "success": false,
+      "markAsSolved": false
+    },
+    {
+      "id": "6a4fe0a282ad17677ca769f6",
+      "name": "D 11:00 - 20 - Relatórios Embaixador Sicoob",
+      "device": "Roberty20(PRD)",
+      "runId": "6ae20018c4b9eac38e0c4fba",
+      "startDate": "2026-10-28T14:00:55.000Z",
+      "endDate": "2026-10-28T14:01:40.000Z",
+      "duration": 45,
+      "success": false,
+      "markAsSolved": false
+    },
+    {
+      "id": "6a6a10696f0732ec155741c7",
+      "name": "01 - Importacao Dados LCI",
+      "device": "Roberty(UAD01)",
+      "runId": "6ae1cf4ec4b9eac38ee0a55f",
+      "startDate": "2026-10-28T10:32:46.000Z",
+      "endDate": "2026-10-28T10:42:21.000Z",
+      "duration": 575,
+      "success": false,
+      "markAsSolved": false
+    }
+  ],
+  "stats": {
+    "69e2787acb7a473b1e069353": {
+      "totalRuns": 835,
+      "successRuns": 830,
+      "errorRuns": 5,
+      "totalDuration": 85391,
+      "averageDuration": 102.26467065868263
+    },
+    "69f249b964f708e2768587c1": {
+      "totalRuns": 327,
+      "successRuns": 274,
+      "errorRuns": 53,
+      "totalDuration": 29706,
+      "averageDuration": 90.8440366972477
+    },
+    "6aa9a152bf5cf85cb6a8c0dc": {
+      "totalRuns": 22,
+      "successRuns": 9,
+      "errorRuns": 13,
+      "totalDuration": 25641,
+      "averageDuration": 1165.5
+    },
+    "6abd1d15dce9d9048fe77c0c": {
+      "totalRuns": 18,
+      "successRuns": 4,
+      "errorRuns": 14,
+      "totalDuration": 793,
+      "averageDuration": 44.05555555555556
+    },
+    "6a7f2155dfbf1d88d0e66c3c": {
+      "totalRuns": 53,
+      "successRuns": 40,
+      "errorRuns": 13,
+      "totalDuration": 4839,
+      "averageDuration": 91.30188679245283
+    },
+    "6a68df778c1f58ababa1b36f": {
+      "totalRuns": 55,
+      "successRuns": 41,
+      "errorRuns": 14,
+      "totalDuration": 5033,
+      "averageDuration": 91.50909090909092
+    },
+    "6a6a10696f0732ec155741c7": {
+      "totalRuns": 54,
+      "successRuns": 27,
+      "errorRuns": 27,
+      "totalDuration": 9248,
+      "averageDuration": 171.25925925925927
+    },
+    "69c5674cce8501c95b4e5503": {
+      "totalRuns": 137,
+      "successRuns": 93,
+      "errorRuns": 44,
+      "totalDuration": 15012,
+      "averageDuration": 109.57664233576642
+    },
+    "69bd876c20a381874c09d994": {
+      "totalRuns": 76,
+      "successRuns": 49,
+      "errorRuns": 27,
+      "totalDuration": 6768,
+      "averageDuration": 89.05263157894737
+    },
+    "69bacd43bd7aecca5bfae786": {
+      "totalRuns": 72,
+      "successRuns": 50,
+      "errorRuns": 22,
+      "totalDuration": 17825,
+      "averageDuration": 247.56944444444446
+    },
+    "69cd25373189a69372b0de7b": {
+      "totalRuns": 61,
+      "successRuns": 36,
+      "errorRuns": 25,
+      "totalDuration": 6930,
+      "averageDuration": 113.60655737704919
+    },
+    "69c68d47b8206691e25fd7cc": {
+      "totalRuns": 10,
+      "successRuns": 10,
+      "errorRuns": 0,
+      "totalDuration": 331,
+      "averageDuration": 33.1
+    },
+    "6a6a158941de8fd49d45e070": {
+      "totalRuns": 12,
+      "successRuns": 6,
+      "errorRuns": 6,
+      "totalDuration": 1145,
+      "averageDuration": 95.41666666666667
+    },
+    "69c3c39d1de43b143a68bb1c": {
+      "totalRuns": 57,
+      "successRuns": 27,
+      "errorRuns": 30,
+      "totalDuration": 6195,
+      "averageDuration": 108.6842105263158
+    },
+    "69fa0a6be077d3c2af3fb61e": {
+      "totalRuns": 60,
+      "successRuns": 33,
+      "errorRuns": 27,
+      "totalDuration": 8502,
+      "averageDuration": 141.7
+    },
+    "69b816639a73e49fab6ecf7b": {
+      "totalRuns": 47,
+      "successRuns": 31,
+      "errorRuns": 16,
+      "totalDuration": 17370,
+      "averageDuration": 369.5744680851064
+    },
+    "6a18a80416b5426d03719456": {
+      "totalRuns": 923,
+      "successRuns": 923,
+      "errorRuns": 0,
+      "totalDuration": 26554,
+      "averageDuration": 28.76923076923077
+    },
+    "6a43baa02e2c97707b7942aa": {
+      "totalRuns": 57,
+      "successRuns": 34,
+      "errorRuns": 23,
+      "totalDuration": 30095,
+      "averageDuration": 527.9824561403509
+    },
+    "69d5068fcd11ec868735fb0a": {
+      "totalRuns": 409,
+      "successRuns": 402,
+      "errorRuns": 7,
+      "totalDuration": 22393,
+      "averageDuration": 54.75061124694376
+    },
+    "6a6a35c12aabdd8fd3b65e99": {
+      "totalRuns": 772,
+      "successRuns": 770,
+      "errorRuns": 2,
+      "totalDuration": 22515,
+      "averageDuration": 29.164507772020727
+    },
+    "6a6b52f70a210e12cc6dbecb": {
+      "totalRuns": 823,
+      "successRuns": 626,
+      "errorRuns": 197,
+      "totalDuration": 55670,
+      "averageDuration": 67.64277035236938
+    },
+    "69df96b41841d175877bdec2": {
+      "totalRuns": 79,
+      "successRuns": 51,
+      "errorRuns": 28,
+      "totalDuration": 4644,
+      "averageDuration": 58.78481012658228
+    },
+    "6a0c4d66b04af055981ce61e": {
+      "totalRuns": 27,
+      "successRuns": 27,
+      "errorRuns": 0,
+      "totalDuration": 3652,
+      "averageDuration": 135.25925925925927
+    },
+    "6a0c7c78c8bebb5425e38db1": {
+      "totalRuns": 97,
+      "successRuns": 97,
+      "errorRuns": 0,
+      "totalDuration": 7989,
+      "averageDuration": 82.36082474226804
+    },
+    "69fd3f8cc9c3c0a2c98172dd": {
+      "totalRuns": 3186,
+      "successRuns": 3186,
+      "errorRuns": 0,
+      "totalDuration": 88764,
+      "averageDuration": 27.860640301318266
+    },
+    "69dcf00b5f85caa64f9b3d6c": {
+      "totalRuns": 132,
+      "successRuns": 124,
+      "errorRuns": 8,
+      "totalDuration": 181839,
+      "averageDuration": 1377.5681818181818
+    },
+    "69f0f337cffb4fc330448f35": {
+      "totalRuns": 49,
+      "successRuns": 25,
+      "errorRuns": 24,
+      "totalDuration": 150860,
+      "averageDuration": 3078.7755102040815
+    },
+    "6a4e92f4e0a326cd91fb86d5": {
+      "totalRuns": 32,
+      "successRuns": 25,
+      "errorRuns": 7,
+      "totalDuration": 67266,
+      "averageDuration": 2102.0625
+    },
+    "6a56e396408dff01d5f079f9": {
+      "totalRuns": 22,
+      "successRuns": 22,
+      "errorRuns": 0,
+      "totalDuration": 297,
+      "averageDuration": 13.5
+    },
+    "6a56e5c71c9080c7cb3aae57": {
+      "totalRuns": 22,
+      "successRuns": 21,
+      "errorRuns": 1,
+      "totalDuration": 3746,
+      "averageDuration": 170.27272727272728
+    },
+    "6a56e5881c9080c7cb3aae46": {
+      "totalRuns": 22,
+      "successRuns": 21,
+      "errorRuns": 1,
+      "totalDuration": 1722,
+      "averageDuration": 78.27272727272727
+    },
+    "6a56e5f81c9080c7cb3aae68": {
+      "totalRuns": 22,
+      "successRuns": 22,
+      "errorRuns": 0,
+      "totalDuration": 8372,
+      "averageDuration": 380.54545454545456
+    },
+    "6a56e61c1c9080c7cb3aae79": {
+      "totalRuns": 23,
+      "successRuns": 21,
+      "errorRuns": 2,
+      "totalDuration": 2899,
+      "averageDuration": 126.04347826086956
+    },
+    "6a56e6431c9080c7cb3aae8a": {
+      "totalRuns": 22,
+      "successRuns": 22,
+      "errorRuns": 0,
+      "totalDuration": 3406,
+      "averageDuration": 154.8181818181818
+    },
+    "6a4fe0a282ad17677ca769f6": {
+      "totalRuns": 27,
+      "successRuns": 2,
+      "errorRuns": 25,
+      "totalDuration": 1973,
+      "averageDuration": 73.07407407407408
+    },
+    "6a50f7fed33d7bc41dabab93": {
+      "totalRuns": 24,
+      "successRuns": 0,
+      "errorRuns": 24,
+      "totalDuration": 1420,
+      "averageDuration": 59.166666666666664
+    },
+    "6a50fe0d55f7991ca7e31baa": {
+      "totalRuns": 22,
+      "successRuns": 0,
+      "errorRuns": 22,
+      "totalDuration": 1328,
+      "averageDuration": 60.36363636363637
+    },
+    "6a50f383674eca6f007f3392": {
+      "totalRuns": 28,
+      "successRuns": 2,
+      "errorRuns": 26,
+      "totalDuration": 1945,
+      "averageDuration": 69.46428571428571
+    },
+    "6a51018f1f7e527fed816962": {
+      "totalRuns": 24,
+      "successRuns": 16,
+      "errorRuns": 8,
+      "totalDuration": 8153,
+      "averageDuration": 339.7083333333333
+    },
+    "6a50fbb60d04f6e6cd98e1a5": {
+      "totalRuns": 26,
+      "successRuns": 16,
+      "errorRuns": 10,
+      "totalDuration": 7657,
+      "averageDuration": 294.5
+    },
+    "6a4d07e42db8e3504c7cf8d0": {
+      "totalRuns": 10,
+      "successRuns": 7,
+      "errorRuns": 3,
+      "totalDuration": 3890,
+      "averageDuration": 389
+    },
+    "6adf5ca585dac0936f94a120": {
+      "totalRuns": 1,
+      "successRuns": 0,
+      "errorRuns": 1,
+      "totalDuration": 0,
+      "averageDuration": 0
+    },
+    "6a56e5121c9080c7cb3aae24": {
+      "totalRuns": 7,
+      "successRuns": 5,
+      "errorRuns": 2,
+      "totalDuration": 870,
+      "averageDuration": 124.28571428571429
+    },
+    "6a56e55c1c9080c7cb3aae35": {
+      "totalRuns": 9,
+      "successRuns": 9,
+      "errorRuns": 0,
+      "totalDuration": 67,
+      "averageDuration": 7.444444444444445
+    },
+    "6a848e2863313f843eb316ed": {
+      "totalRuns": 5,
+      "successRuns": 4,
+      "errorRuns": 1,
+      "totalDuration": 204,
+      "averageDuration": 40.8
+    }
+  },
+  "runs": [
+    {
+      "runId": "6ae24020c4b9eac38e3d0a7d",
+      "robotId": "69dcf00b5f85caa64f9b3d6c",
+      "robotName": "40 - Liberação Cheque Especial",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T18:34:08.747Z",
+      "endDate": null,
+      "duration": 0,
+      "success": false,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ae24005c4b9eac38e3cf325",
+      "robotId": "69fd3f8cc9c3c0a2c98172dd",
+      "robotName": "40 - Abrir e Fechar Bloco de Notas",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T18:33:41.000Z",
+      "endDate": "2026-10-28T18:34:07.000Z",
+      "duration": 26,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae23feac4b9eac38e3cdbc7",
+      "robotId": "69e2787acb7a473b1e069353",
+      "robotName": "01 - Aprovações Conta Capital",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T18:33:14.000Z",
+      "endDate": "2026-10-28T18:38:13.000Z",
+      "duration": 299,
+      "success": false,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ae23fe2c4b9eac38e3cd4f8",
+      "robotId": "69d5068fcd11ec868735fb0a",
+      "robotName": "20 - BNDES - Acompanhamento",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T18:33:05.000Z",
+      "endDate": "2026-10-28T18:33:19.000Z",
+      "duration": 14,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae23fdac4b9eac38e3ccb2d",
+      "robotId": "6a6a35c12aabdd8fd3b65e99",
+      "robotName": "20 - BNDES Enquadramento Novo",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T18:32:57.000Z",
+      "endDate": "2026-10-28T18:33:05.000Z",
+      "duration": 8,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae23f64c4b9eac38e3c5cdc",
+      "robotId": "6a6b52f70a210e12cc6dbecb",
+      "robotName": "20 - BNDES Vinculação Novo",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T18:30:59.000Z",
+      "endDate": "2026-10-28T18:32:56.000Z",
+      "duration": 117,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae23f34c4b9eac38e3c2f59",
+      "robotId": "69e2787acb7a473b1e069353",
+      "robotName": "01 - Aprovações Conta Capital",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T18:30:12.000Z",
+      "endDate": "2026-10-28T18:33:04.000Z",
+      "duration": 172,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae23d48c4b9eac38e3abad2",
+      "robotId": "69e2787acb7a473b1e069353",
+      "robotName": "01 - Aprovações Conta Capital",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T18:22:00.000Z",
+      "endDate": "2026-10-28T18:24:43.000Z",
+      "duration": 163,
+      "success": false,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ae23ca5c4b9eac38e3a3138",
+      "robotId": "69dcf00b5f85caa64f9b3d6c",
+      "robotName": "40 - Liberação Cheque Especial",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T18:19:17.000Z",
+      "endDate": "2026-10-28T18:33:41.000Z",
+      "duration": 864,
+      "success": false,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ae23c6fc4b9eac38e39ffd9",
+      "robotId": "69fd3f8cc9c3c0a2c98172dd",
+      "robotName": "40 - Abrir e Fechar Bloco de Notas",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T18:18:23.000Z",
+      "endDate": "2026-10-28T18:18:49.000Z",
+      "duration": 26,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae23c55c4b9eac38e39ecf2",
+      "robotId": "6a6a35c12aabdd8fd3b65e99",
+      "robotName": "20 - BNDES Enquadramento Novo",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T18:17:56.000Z",
+      "endDate": "2026-10-28T18:18:44.000Z",
+      "duration": 48,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae23be0c4b9eac38e39925b",
+      "robotId": "6a6b52f70a210e12cc6dbecb",
+      "robotName": "20 - BNDES Vinculação Novo",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T18:15:58.000Z",
+      "endDate": "2026-10-28T18:17:55.000Z",
+      "duration": 117,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae23bb1c4b9eac38e396cc4",
+      "robotId": "69e2787acb7a473b1e069353",
+      "robotName": "01 - Aprovações Conta Capital",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T18:15:13.000Z",
+      "endDate": "2026-10-28T18:17:56.000Z",
+      "duration": 163,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae23a4ec4b9eac38e385000",
+      "robotId": "69e2787acb7a473b1e069353",
+      "robotName": "01 - Aprovações Conta Capital",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T18:09:18.000Z",
+      "endDate": "2026-10-28T18:12:00.000Z",
+      "duration": 162,
+      "success": true,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ae238d0c4b9eac38e3716e6",
+      "robotId": "69dcf00b5f85caa64f9b3d6c",
+      "robotName": "40 - Liberação Cheque Especial",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T18:02:56.000Z",
+      "endDate": "2026-10-28T18:18:22.000Z",
+      "duration": 926,
+      "success": true,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ae23897c4b9eac38e36e617",
+      "robotId": "69d5068fcd11ec868735fb0a",
+      "robotName": "20 - BNDES - Acompanhamento",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T18:01:57.000Z",
+      "endDate": "2026-10-28T18:02:11.000Z",
+      "duration": 14,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae23865c4b9eac38e36b951",
+      "robotId": "6a6a35c12aabdd8fd3b65e99",
+      "robotName": "20 - BNDES Enquadramento Novo",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T18:01:07.000Z",
+      "endDate": "2026-10-28T18:01:56.000Z",
+      "duration": 49,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae2385bc4b9eac38e36af41",
+      "robotId": "6a6b52f70a210e12cc6dbecb",
+      "robotName": "20 - BNDES Vinculação Novo",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T18:00:58.000Z",
+      "endDate": "2026-10-28T18:01:07.000Z",
+      "duration": 9,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae23840c4b9eac38e368ddd",
+      "robotId": "69e2787acb7a473b1e069353",
+      "robotName": "01 - Aprovações Conta Capital",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T18:00:32.000Z",
+      "endDate": "2026-10-28T18:03:12.000Z",
+      "duration": 160,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae2383dc4b9eac38e3689c6",
+      "robotId": "69fd3f8cc9c3c0a2c98172dd",
+      "robotName": "40 - Abrir e Fechar Bloco de Notas",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T18:00:29.000Z",
+      "endDate": "2026-10-28T18:00:59.000Z",
+      "duration": 30,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae2382cc4b9eac38e367401",
+      "robotId": "69f249b964f708e2768587c1",
+      "robotName": "01 - Desligamento Cooperado Lecom",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T18:00:12.000Z",
+      "endDate": "2026-10-28T18:00:31.000Z",
+      "duration": 19,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae234e1c4b9eac38e33f540",
+      "robotId": "6a6a35c12aabdd8fd3b65e99",
+      "robotName": "20 - BNDES Enquadramento Novo",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T17:46:07.000Z",
+      "endDate": "2026-10-28T17:46:15.000Z",
+      "duration": 8,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae234d8c4b9eac38e33ec7d",
+      "robotId": "6a6b52f70a210e12cc6dbecb",
+      "robotName": "20 - BNDES Vinculação Novo",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T17:45:58.000Z",
+      "endDate": "2026-10-28T17:46:07.000Z",
+      "duration": 9,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae234a9c4b9eac38e33c53d",
+      "robotId": "69e2787acb7a473b1e069353",
+      "robotName": "01 - Aprovações Conta Capital",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T17:45:12.000Z",
+      "endDate": "2026-10-28T17:47:51.000Z",
+      "duration": 159,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae231e2c4b9eac38e31afe7",
+      "robotId": "69d5068fcd11ec868735fb0a",
+      "robotName": "20 - BNDES - Acompanhamento",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T17:33:20.000Z",
+      "endDate": "2026-10-28T17:34:28.000Z",
+      "duration": 68,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae231d9c4b9eac38e31a762",
+      "robotId": "6a6a35c12aabdd8fd3b65e99",
+      "robotName": "20 - BNDES Enquadramento Novo",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T17:33:11.000Z",
+      "endDate": "2026-10-28T17:33:20.000Z",
+      "duration": 9,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae23153c4b9eac38e31334b",
+      "robotId": "69fd3f8cc9c3c0a2c98172dd",
+      "robotName": "40 - Abrir e Fechar Bloco de Notas",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T17:30:59.000Z",
+      "endDate": "2026-10-28T17:31:26.000Z",
+      "duration": 27,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae23153c4b9eac38e31330a",
+      "robotId": "6a6b52f70a210e12cc6dbecb",
+      "robotName": "20 - BNDES Vinculação Novo",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T17:30:58.000Z",
+      "endDate": "2026-10-28T17:33:11.000Z",
+      "duration": 133,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae23130c4b9eac38e31095a",
+      "robotId": "69e2787acb7a473b1e069353",
+      "robotName": "01 - Aprovações Conta Capital",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T17:30:23.000Z",
+      "endDate": "2026-10-28T17:33:03.000Z",
+      "duration": 160,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae23124c4b9eac38e30f9f8",
+      "robotId": "69f249b964f708e2768587c1",
+      "robotName": "01 - Desligamento Cooperado Lecom",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T17:30:11.000Z",
+      "endDate": "2026-10-28T17:30:23.000Z",
+      "duration": 12,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae22efac4b9eac38e2f54bc",
+      "robotId": "69fd3f8cc9c3c0a2c98172dd",
+      "robotName": "40 - Abrir e Fechar Bloco de Notas",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T17:20:58.000Z",
+      "endDate": "2026-10-28T17:21:25.000Z",
+      "duration": 27,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae22ea3c4b9eac38e2f0d57",
+      "robotId": "6a6a35c12aabdd8fd3b65e99",
+      "robotName": "20 - BNDES Enquadramento Novo",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T17:19:30.000Z",
+      "endDate": "2026-10-28T17:19:38.000Z",
+      "duration": 8,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae22e63c4b9eac38e2ee0b4",
+      "robotId": "69fd3f8cc9c3c0a2c98172dd",
+      "robotName": "40 - Abrir e Fechar Bloco de Notas",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T17:18:27.000Z",
+      "endDate": "2026-10-28T17:18:55.000Z",
+      "duration": 28,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae22dcfc4b9eac38e2e4648",
+      "robotId": "6a6b52f70a210e12cc6dbecb",
+      "robotName": "20 - BNDES Vinculação Novo",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T17:15:58.000Z",
+      "endDate": "2026-10-28T17:19:30.000Z",
+      "duration": 212,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae22da0c4b9eac38e2e2171",
+      "robotId": "69e2787acb7a473b1e069353",
+      "robotName": "01 - Aprovações Conta Capital",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T17:15:12.000Z",
+      "endDate": "2026-10-28T17:16:45.000Z",
+      "duration": 93,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae22a67c4b9eac38e2ba1f2",
+      "robotId": "6a6a35c12aabdd8fd3b65e99",
+      "robotName": "20 - BNDES Enquadramento Novo",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T17:01:26.000Z",
+      "endDate": "2026-10-28T17:03:22.000Z",
+      "duration": 116,
+      "success": true,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ae22a55c4b9eac38e2b8d96",
+      "robotId": "69d5068fcd11ec868735fb0a",
+      "robotName": "20 - BNDES - Acompanhamento",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T17:01:08.000Z",
+      "endDate": "2026-10-28T17:01:22.000Z",
+      "duration": 14,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae22a4bc4b9eac38e2b7ef0",
+      "robotId": "6a6b52f70a210e12cc6dbecb",
+      "robotName": "20 - BNDES Vinculação Novo",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T17:00:57.000Z",
+      "endDate": "2026-10-28T17:01:07.000Z",
+      "duration": 10,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae22a28c4b9eac38e2b4df9",
+      "robotId": "69e2787acb7a473b1e069353",
+      "robotName": "01 - Aprovações Conta Capital",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T17:00:24.000Z",
+      "endDate": "2026-10-28T17:01:56.000Z",
+      "duration": 92,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae22a1cc4b9eac38e2b425b",
+      "robotId": "69f249b964f708e2768587c1",
+      "robotName": "01 - Desligamento Cooperado Lecom",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T17:00:11.000Z",
+      "endDate": "2026-10-28T17:00:23.000Z",
+      "duration": 12,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae22862c4b9eac38e29fe55",
+      "robotId": "6a50f383674eca6f007f3392",
+      "robotName": "D 11:20 - 20 - Relatorio Etica e Integridade",
+      "device": "Roberty20(PRD)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T16:52:50.000Z",
+      "endDate": "2026-10-28T16:57:13.000Z",
+      "duration": 263,
+      "success": true,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ae22799c4b9eac38e296612",
+      "robotId": "6a50f383674eca6f007f3392",
+      "robotName": "D 11:20 - 20 - Relatorio Etica e Integridade",
+      "device": "Roberty20(PRD)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T16:49:28.000Z",
+      "endDate": "2026-10-28T16:49:47.000Z",
+      "duration": 19,
+      "success": false,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ae226c6c4b9eac38e28d027",
+      "robotId": "6a6b52f70a210e12cc6dbecb",
+      "robotName": "20 - BNDES Vinculação Novo",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T16:45:57.000Z",
+      "endDate": "2026-10-28T16:46:06.000Z",
+      "duration": 9,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae2234cc4b9eac38e264dee",
+      "robotId": "69d5068fcd11ec868735fb0a",
+      "robotName": "20 - BNDES - Acompanhamento",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T16:31:07.000Z",
+      "endDate": "2026-10-28T16:31:21.000Z",
+      "duration": 14,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae22343c4b9eac38e26462d",
+      "robotId": "6a6b52f70a210e12cc6dbecb",
+      "robotName": "20 - BNDES Vinculação Novo",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T16:30:58.000Z",
+      "endDate": "2026-10-28T16:31:06.000Z",
+      "duration": 8,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae22313c4b9eac38e261b25",
+      "robotId": "69f249b964f708e2768587c1",
+      "robotName": "01 - Desligamento Cooperado Lecom",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T16:30:11.000Z",
+      "endDate": "2026-10-28T16:30:23.000Z",
+      "duration": 12,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae21fbec4b9eac38e23e55e",
+      "robotId": "6a6b52f70a210e12cc6dbecb",
+      "robotName": "20 - BNDES Vinculação Novo",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T16:15:57.000Z",
+      "endDate": "2026-10-28T16:16:05.000Z",
+      "duration": 8,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae21c44c4b9eac38e21936a",
+      "robotId": "69d5068fcd11ec868735fb0a",
+      "robotName": "20 - BNDES - Acompanhamento",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T16:01:07.000Z",
+      "endDate": "2026-10-28T16:01:20.000Z",
+      "duration": 13,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae21c0bc4b9eac38e215709",
+      "robotId": "69f249b964f708e2768587c1",
+      "robotName": "01 - Desligamento Cooperado Lecom",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T16:00:11.000Z",
+      "endDate": "2026-10-28T16:00:23.000Z",
+      "duration": 12,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae2153cc4b9eac38e1cbdcb",
+      "robotId": "69d5068fcd11ec868735fb0a",
+      "robotName": "20 - BNDES - Acompanhamento",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T15:31:07.000Z",
+      "endDate": "2026-10-28T15:32:16.000Z",
+      "duration": 69,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae21505c4b9eac38e1c834c",
+      "robotId": "6a4e92f4e0a326cd91fb86d5",
+      "robotName": "40 - Reclassificação Risco - CRL 3039",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T15:30:13.000Z",
+      "endDate": "2026-10-28T17:18:26.000Z",
+      "duration": 6493,
+      "success": false,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ae21503c4b9eac38e1c8124",
+      "robotId": "69f249b964f708e2768587c1",
+      "robotName": "01 - Desligamento Cooperado Lecom",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T15:30:11.000Z",
+      "endDate": "2026-10-28T15:30:23.000Z",
+      "duration": 12,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae212dac4b9eac38e1b0985",
+      "robotId": "69fd3f8cc9c3c0a2c98172dd",
+      "robotName": "40 - Abrir e Fechar Bloco de Notas",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T15:20:58.000Z",
+      "endDate": "2026-10-28T15:21:27.000Z",
+      "duration": 29,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae21099c4b9eac38e197418",
+      "robotId": "6a6a35c12aabdd8fd3b65e99",
+      "robotName": "20 - BNDES Enquadramento Novo",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T15:11:20.000Z",
+      "endDate": "2026-10-28T15:12:17.000Z",
+      "duration": 57,
+      "success": true,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ae21082c4b9eac38e196155",
+      "robotId": "69fd3f8cc9c3c0a2c98172dd",
+      "robotName": "40 - Abrir e Fechar Bloco de Notas",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T15:10:58.000Z",
+      "endDate": "2026-10-28T15:11:28.000Z",
+      "duration": 30,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae2104fc4b9eac38e192d55",
+      "robotId": "6a6a35c12aabdd8fd3b65e99",
+      "robotName": "20 - BNDES Enquadramento Novo",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T15:10:06.000Z",
+      "endDate": "2026-10-28T15:10:50.000Z",
+      "duration": 44,
+      "success": false,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ae20fbcc4b9eac38e18c3e4",
+      "robotId": "6a6a35c12aabdd8fd3b65e99",
+      "robotName": "20 - BNDES Enquadramento Novo",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T15:07:39.000Z",
+      "endDate": "2026-10-28T15:07:47.000Z",
+      "duration": 8,
+      "success": true,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ae20faac4b9eac38e18b4e2",
+      "robotId": "6adf5ca585dac0936f94a120",
+      "robotName": "Roberty - Carteira de Credito - Baixa de Saldos e Liberacoes BRDE",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T15:07:21.000Z",
+      "endDate": "2026-10-28T15:07:21.000Z",
+      "duration": 0,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae20ef1c4b9eac38e183125",
+      "robotId": "69d5068fcd11ec868735fb0a",
+      "robotName": "20 - BNDES - Acompanhamento",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T15:04:16.000Z",
+      "endDate": "2026-10-28T15:07:20.000Z",
+      "duration": 184,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae20e29c4b9eac38e17a60d",
+      "robotId": "69fd3f8cc9c3c0a2c98172dd",
+      "robotName": "40 - Abrir e Fechar Bloco de Notas",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T15:00:57.000Z",
+      "endDate": "2026-10-28T15:01:24.000Z",
+      "duration": 27,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae20dfbc4b9eac38e177628",
+      "robotId": "69f249b964f708e2768587c1",
+      "robotName": "01 - Desligamento Cooperado Lecom",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T15:00:10.000Z",
+      "endDate": "2026-10-28T15:00:22.000Z",
+      "duration": 12,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae20dbec4b9eac38e174685",
+      "robotId": "6a4fe0a282ad17677ca769f6",
+      "robotName": "D 11:00 - 20 - Relatórios Embaixador Sicoob",
+      "device": "Roberty20(PRD)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T14:59:10.000Z",
+      "endDate": "2026-10-28T14:59:31.000Z",
+      "duration": 21,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae20bd1c4b9eac38e15c776",
+      "robotId": "69fd3f8cc9c3c0a2c98172dd",
+      "robotName": "40 - Abrir e Fechar Bloco de Notas",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T14:50:57.000Z",
+      "endDate": "2026-10-28T14:51:24.000Z",
+      "duration": 27,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae20ba8c4b9eac38e159e04",
+      "robotId": "6a50fbb60d04f6e6cd98e1a5",
+      "robotName": "D 11:35 20 - Relatorio Consorcio",
+      "device": "Roberty20(PRD)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T14:50:15.000Z",
+      "endDate": "2026-10-28T14:54:50.000Z",
+      "duration": 275,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae20b96c4b9eac38e159068",
+      "robotId": "6a50f383674eca6f007f3392",
+      "robotName": "D 11:20 - 20 - Relatorio Etica e Integridade",
+      "device": "Roberty20(PRD)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T14:49:58.000Z",
+      "endDate": "2026-10-28T14:50:15.000Z",
+      "duration": 17,
+      "success": true,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ae20930c4b9eac38e13d2ad",
+      "robotId": "6a50fbb60d04f6e6cd98e1a5",
+      "robotName": "D 11:35 20 - Relatorio Consorcio",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T14:39:43.000Z",
+      "endDate": "2026-10-28T14:45:38.000Z",
+      "duration": 355,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae20922c4b9eac38e13c8c7",
+      "robotId": "69d5068fcd11ec868735fb0a",
+      "robotName": "20 - BNDES - Acompanhamento",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T14:39:29.000Z",
+      "endDate": "2026-10-28T14:39:43.000Z",
+      "duration": 14,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae208f3c4b9eac38e13a390",
+      "robotId": "6a848e2863313f843eb316ed",
+      "robotName": "S 11:30 - 20 - Ubots - Cancelamento Seguros - Qua",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T14:38:42.000Z",
+      "endDate": "2026-10-28T14:39:28.000Z",
+      "duration": 46,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae208cec4b9eac38e138914",
+      "robotId": "6a4fe0a282ad17677ca769f6",
+      "robotName": "D 11:00 - 20 - Relatórios Embaixador Sicoob",
+      "device": "Roberty20(PRD)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T14:38:05.000Z",
+      "endDate": "2026-10-28T14:39:02.000Z",
+      "duration": 57,
+      "success": false,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ae2076dc4b9eac38e128bec",
+      "robotId": "6a51018f1f7e527fed816962",
+      "robotName": "D 11:30 - 20 - Relatorio Educacao Financeira",
+      "device": "Roberty20(PRD)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T14:32:13.000Z",
+      "endDate": "2026-10-28T14:32:13.000Z",
+      "duration": 0,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae20720c4b9eac38e124fc5",
+      "robotId": "6a51018f1f7e527fed816962",
+      "robotName": "D 11:30 - 20 - Relatorio Educacao Financeira",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T14:30:55.000Z",
+      "endDate": "2026-10-28T14:37:32.000Z",
+      "duration": 397,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae20704c4b9eac38e1233a3",
+      "robotId": "69f249b964f708e2768587c1",
+      "robotName": "01 - Desligamento Cooperado Lecom",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T14:30:27.000Z",
+      "endDate": "2026-10-28T14:30:38.000Z",
+      "duration": 11,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae204c8c4b9eac38e1080fa",
+      "robotId": "6a50f383674eca6f007f3392",
+      "robotName": "D 11:20 - 20 - Relatorio Etica e Integridade",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T14:20:55.000Z",
+      "endDate": "2026-10-28T14:22:05.000Z",
+      "duration": 70,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae204acc4b9eac38e106628",
+      "robotId": "6a50f383674eca6f007f3392",
+      "robotName": "D 11:20 - 20 - Relatorio Etica e Integridade",
+      "device": "Roberty20(PRD)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T14:20:28.000Z",
+      "endDate": "2026-10-28T14:20:56.000Z",
+      "duration": 28,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae20421c4b9eac38e0fe77e",
+      "robotId": "6a50f7fed33d7bc41dabab93",
+      "robotName": "D 11:10 - 20 - Relatorio Riscos e Controles Singulares",
+      "device": "Roberty20(PRD)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T14:18:08.000Z",
+      "endDate": "2026-10-28T14:18:09.000Z",
+      "duration": 1,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae2039cc4b9eac38e0f5dfc",
+      "robotId": "6a50fe0d55f7991ca7e31baa",
+      "robotName": "D 11:15 - 20 - Relatorio Publico",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T14:15:55.000Z",
+      "endDate": "2026-10-28T14:17:02.000Z",
+      "duration": 67,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae20270c4b9eac38e0e4910",
+      "robotId": "6a50f7fed33d7bc41dabab93",
+      "robotName": "D 11:10 - 20 - Relatorio Riscos e Controles Singulares",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T14:10:55.000Z",
+      "endDate": "2026-10-28T14:11:39.000Z",
+      "duration": 44,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae201fdc4b9eac38e0dda5f",
+      "robotId": "6a4fe0a282ad17677ca769f6",
+      "robotName": "D 11:00 - 20 - Relatórios Embaixador Sicoob",
+      "device": "Roberty20(PRD)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T14:09:00.000Z",
+      "endDate": "2026-10-28T14:10:20.000Z",
+      "duration": 80,
+      "success": false,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ae200b3c4b9eac38e0cd4ad",
+      "robotId": "69d5068fcd11ec868735fb0a",
+      "robotName": "20 - BNDES - Acompanhamento",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T14:03:30.000Z",
+      "endDate": "2026-10-28T14:03:45.000Z",
+      "duration": 15,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae20018c4b9eac38e0c4fba",
+      "robotId": "6a4fe0a282ad17677ca769f6",
+      "robotName": "D 11:00 - 20 - Relatórios Embaixador Sicoob",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T14:00:55.000Z",
+      "endDate": "2026-10-28T14:01:40.000Z",
+      "duration": 45,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae1fffbc4b9eac38e0c2e7f",
+      "robotId": "69f249b964f708e2768587c1",
+      "robotName": "01 - Desligamento Cooperado Lecom",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T14:00:26.000Z",
+      "endDate": "2026-10-28T14:00:37.000Z",
+      "duration": 11,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae1fd20c4b9eac38e09a65d",
+      "robotId": "69dcf00b5f85caa64f9b3d6c",
+      "robotName": "40 - Liberação Cheque Especial",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T13:48:16.000Z",
+      "endDate": "2026-10-28T14:18:46.000Z",
+      "duration": 1830,
+      "success": true,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ae1f90fc4b9eac38e063bb4",
+      "robotId": "6a56e6431c9080c7cb3aae8a",
+      "robotName": "D 10:30 - 20 - Ubots - Inad Credito 35 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T13:30:54.000Z",
+      "endDate": "2026-10-28T13:31:18.000Z",
+      "duration": 24,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae1f8f2c4b9eac38e061f36",
+      "robotId": "69f249b964f708e2768587c1",
+      "robotName": "01 - Desligamento Cooperado Lecom",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T13:30:26.000Z",
+      "endDate": "2026-10-28T13:34:02.000Z",
+      "duration": 216,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae1f803c4b9eac38e055281",
+      "robotId": "6a56e61c1c9080c7cb3aae79",
+      "robotName": "D 10:25 - 20 - Ubots - Inad Credito 25 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T13:26:26.000Z",
+      "endDate": "2026-10-28T13:27:37.000Z",
+      "duration": 71,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae1f7f4c4b9eac38e054919",
+      "robotId": "6a56e5f81c9080c7cb3aae68",
+      "robotName": "D 10:20 - 20 -Ubots -  Inad Credito 03 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T13:26:11.000Z",
+      "endDate": "2026-10-28T13:26:26.000Z",
+      "duration": 15,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae1f58bc4b9eac38e03523e",
+      "robotId": "6a56e5881c9080c7cb3aae46",
+      "robotName": "D 10:15 - 20 - Ubots - Inad TD 05 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T13:15:54.000Z",
+      "endDate": "2026-10-28T13:17:08.000Z",
+      "duration": 74,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae1f45fc4b9eac38e02539c",
+      "robotId": "6a56e5c71c9080c7cb3aae57",
+      "robotName": "D 10:10 - 20 - Ubots - Inad AD 05 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T13:10:54.000Z",
+      "endDate": "2026-10-28T13:12:03.000Z",
+      "duration": 69,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae1f332c4b9eac38e01804d",
+      "robotId": "6a56e396408dff01d5f079f9",
+      "robotName": "D 10:05 - 20 - Ubots - Cotas Pendentes",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T13:05:54.000Z",
+      "endDate": "2026-10-28T13:06:10.000Z",
+      "duration": 16,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae1e83ec4b9eac38ef7cca5",
+      "robotId": "69df96b41841d175877bdec2",
+      "robotName": "20 - Download de convênios",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T12:19:09.000Z",
+      "endDate": "2026-10-28T12:20:56.000Z",
+      "duration": 107,
+      "success": true,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ae1e640c4b9eac38ef55ff1",
+      "robotId": "69df96b41841d175877bdec2",
+      "robotName": "20 - Download de convênios",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T12:10:39.000Z",
+      "endDate": "2026-10-28T12:12:18.000Z",
+      "duration": 99,
+      "success": false,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ae1e021c4b9eac38eefb902",
+      "robotId": "6a4e92f4e0a326cd91fb86d5",
+      "robotName": "40 - Reclassificação Risco - CRL 3039",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T11:44:33.000Z",
+      "endDate": "2026-10-28T11:52:42.000Z",
+      "duration": 489,
+      "success": true,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ae1e019c4b9eac38eefb371",
+      "robotId": "69df96b41841d175877bdec2",
+      "robotName": "20 - Download de convênios",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T11:44:24.000Z",
+      "endDate": "2026-10-28T11:46:01.000Z",
+      "duration": 97,
+      "success": false,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ae1ddfdc4b9eac38eee05db",
+      "robotId": "69c5674cce8501c95b4e5503",
+      "robotName": "01 - Relatorio Ficha Cobrança",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T11:35:24.000Z",
+      "endDate": "2026-10-28T11:35:35.000Z",
+      "duration": 11,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae1dc08c4b9eac38eeb9148",
+      "robotId": "69c5674cce8501c95b4e5503",
+      "robotName": "01 - Relatorio Ficha Cobrança",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T11:27:03.000Z",
+      "endDate": "2026-10-28T11:27:14.000Z",
+      "duration": 11,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae1dab5c4b9eac38eea88b3",
+      "robotId": "69c5674cce8501c95b4e5503",
+      "robotName": "01 - Relatorio Ficha Cobrança",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T11:21:25.000Z",
+      "endDate": "2026-10-28T11:27:03.000Z",
+      "duration": 338,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae1d370c4b9eac38ee34fb6",
+      "robotId": "69c68d47b8206691e25fd7cc",
+      "robotName": "01 - Relatório Câmbio",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T10:50:24.000Z",
+      "endDate": "2026-10-28T10:50:44.000Z",
+      "duration": 20,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae1d20dc4b9eac38ee24215",
+      "robotId": "69df96b41841d175877bdec2",
+      "robotName": "20 - Download de convênios",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T10:44:28.000Z",
+      "endDate": "2026-10-28T10:46:01.000Z",
+      "duration": 93,
+      "success": false,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ae1d1f2c4b9eac38ee22c61",
+      "robotId": "6a7f2155dfbf1d88d0e66c3c",
+      "robotName": "01 - Importacao Aplicacoes LCI LCA",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T10:44:01.000Z",
+      "endDate": "2026-10-28T10:44:12.000Z",
+      "duration": 11,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae1d18fc4b9eac38ee1f092",
+      "robotId": "69c68d47b8206691e25fd7cc",
+      "robotName": "01 - Relatório Câmbio",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T10:42:22.000Z",
+      "endDate": "2026-10-28T10:44:00.000Z",
+      "duration": 98,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae1cf4ec4b9eac38ee0a55f",
+      "robotId": "6a6a10696f0732ec155741c7",
+      "robotName": "01 - Importacao Dados LCI",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T10:32:46.000Z",
+      "endDate": "2026-10-28T10:42:21.000Z",
+      "duration": 575,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae1cf42c4b9eac38ee099c9",
+      "robotId": "6a68df778c1f58ababa1b36f",
+      "robotName": "01 - Importacao Dados LCA",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T10:32:33.000Z",
+      "endDate": "2026-10-28T10:32:44.000Z",
+      "duration": 11,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae1cdfbc4b9eac38edfd1c6",
+      "robotId": "6a7f2155dfbf1d88d0e66c3c",
+      "robotName": "01 - Importacao Aplicacoes LCI LCA",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T10:27:07.000Z",
+      "endDate": "2026-10-28T10:32:33.000Z",
+      "duration": 326,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae1cc85c4b9eac38edf02db",
+      "robotId": "69df96b41841d175877bdec2",
+      "robotName": "20 - Download de convênios",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T10:20:52.000Z",
+      "endDate": "2026-10-28T10:22:25.000Z",
+      "duration": 93,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae1cb96c4b9eac38ede76ca",
+      "robotId": "6a6a10696f0732ec155741c7",
+      "robotName": "01 - Importacao Dados LCI",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T10:16:54.000Z",
+      "endDate": "2026-10-28T10:27:06.000Z",
+      "duration": 612,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae1ca59c4b9eac38eddc570",
+      "robotId": "6a68df778c1f58ababa1b36f",
+      "robotName": "01 - Importacao Dados LCA",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T10:11:37.000Z",
+      "endDate": "2026-10-28T10:16:53.000Z",
+      "duration": 316,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae1ca2dc4b9eac38eddad71",
+      "robotId": "69df96b41841d175877bdec2",
+      "robotName": "20 - Download de convênios",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T10:10:52.000Z",
+      "endDate": "2026-10-28T10:12:24.000Z",
+      "duration": 92,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae1ca24c4b9eac38edda85d",
+      "robotId": "6a6a158941de8fd49d45e070",
+      "robotName": "01 - Relatório Estornos Débito Automático",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T10:10:43.000Z",
+      "endDate": "2026-10-28T10:11:36.000Z",
+      "duration": 53,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae1ca18c4b9eac38edda063",
+      "robotId": "69b816639a73e49fab6ecf7b",
+      "robotName": "01 - Relatórios Risco",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T10:10:32.000Z",
+      "endDate": "2026-10-28T10:10:43.000Z",
+      "duration": 11,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae1c7d4c4b9eac38edc501a",
+      "robotId": "69df96b41841d175877bdec2",
+      "robotName": "20 - Download de convênios",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T10:00:51.000Z",
+      "endDate": "2026-10-28T10:02:42.000Z",
+      "duration": 111,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae1c6d4c4b9eac38edbc43b",
+      "robotId": "69bacd43bd7aecca5bfae786",
+      "robotName": "01 - Relatorios Parcelas Inadimplentes",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T09:56:35.000Z",
+      "endDate": "2026-10-28T10:10:31.000Z",
+      "duration": 836,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae1c6c9c4b9eac38edbbd41",
+      "robotId": "69bd876c20a381874c09d994",
+      "robotName": "01 - Relatorio JUD SICOOB",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T09:56:24.000Z",
+      "endDate": "2026-10-28T09:56:35.000Z",
+      "duration": 11,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae1c246c4b9eac38ed94f84",
+      "robotId": "69b816639a73e49fab6ecf7b",
+      "robotName": "01 - Relatórios Risco",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T09:37:09.000Z",
+      "endDate": "2026-10-28T09:56:23.000Z",
+      "duration": 1154,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae1c1d0c4b9eac38ed910b4",
+      "robotId": "6a6a158941de8fd49d45e070",
+      "robotName": "01 - Relatório Estornos Débito Automático",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T09:35:11.000Z",
+      "endDate": "2026-10-28T09:37:08.000Z",
+      "duration": 117,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae1c1c4c4b9eac38ed90a98",
+      "robotId": "69fa0a6be077d3c2af3fb61e",
+      "robotName": "01 - Relatório Simulações de Crédito",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T09:35:00.000Z",
+      "endDate": "2026-10-28T09:35:10.000Z",
+      "duration": 10,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae1c1b9c4b9eac38ed904a6",
+      "robotId": "69c5674cce8501c95b4e5503",
+      "robotName": "01 - Relatorio Ficha Cobrança",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T09:34:49.000Z",
+      "endDate": "2026-10-28T09:34:59.000Z",
+      "duration": 10,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae1c11ec4b9eac38ed8b09c",
+      "robotId": "69c3c39d1de43b143a68bb1c",
+      "robotName": "01 - Relatório Fabrica de Limites",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T09:32:14.000Z",
+      "endDate": "2026-10-28T09:34:48.000Z",
+      "duration": 154,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae1bff2c4b9eac38ed80860",
+      "robotId": "69bd876c20a381874c09d994",
+      "robotName": "01 - Relatorio JUD SICOOB",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T09:27:13.000Z",
+      "endDate": "2026-10-28T09:32:13.000Z",
+      "duration": 300,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae1bf26c4b9eac38ed79fd2",
+      "robotId": "69f0f337cffb4fc330448f35",
+      "robotName": "40 - Reclassificação Risco - CRL 001",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-28T09:23:49.000Z",
+      "endDate": "2026-10-28T11:29:10.000Z",
+      "duration": 7521,
+      "success": true,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ae1be31c4b9eac38ed70eb5",
+      "robotId": "69fa0a6be077d3c2af3fb61e",
+      "robotName": "01 - Relatório Simulações de Crédito",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T09:19:45.000Z",
+      "endDate": "2026-10-28T09:27:13.000Z",
+      "duration": 448,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae1bd66c4b9eac38ed6a090",
+      "robotId": "6a6a158941de8fd49d45e070",
+      "robotName": "01 - Relatório Estornos Débito Automático",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T09:16:22.000Z",
+      "endDate": "2026-10-28T09:19:33.000Z",
+      "duration": 191,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae1bc27c4b9eac38ed5f3d0",
+      "robotId": "69c5674cce8501c95b4e5503",
+      "robotName": "01 - Relatorio Ficha Cobrança",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-28T09:11:02.000Z",
+      "endDate": "2026-10-28T09:16:22.000Z",
+      "duration": 320,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae10ca1c4b9eac38e79175c",
+      "robotId": "6a4e92f4e0a326cd91fb86d5",
+      "robotName": "40 - Reclassificação Risco - CRL 3039",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-27T20:42:09.000Z",
+      "endDate": "2026-10-27T23:36:04.000Z",
+      "duration": 10435,
+      "success": true,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ae1037bc4b9eac38e7278fb",
+      "robotId": "69dcf00b5f85caa64f9b3d6c",
+      "robotName": "40 - Liberação Cheque Especial",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-27T20:03:06.000Z",
+      "endDate": "2026-10-27T20:26:14.000Z",
+      "duration": 1388,
+      "success": true,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ae0f71bc4b9eac38e68d80c",
+      "robotId": "69dcf00b5f85caa64f9b3d6c",
+      "robotName": "40 - Liberação Cheque Especial",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-27T19:10:19.000Z",
+      "endDate": "2026-10-27T20:01:10.000Z",
+      "duration": 3051,
+      "success": false,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ae0f511c4b9eac38e674b2b",
+      "robotId": "69dcf00b5f85caa64f9b3d6c",
+      "robotName": "40 - Liberação Cheque Especial",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-27T19:01:37.000Z",
+      "endDate": "2026-10-27T19:10:15.000Z",
+      "duration": 518,
+      "success": false,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ae0d842c4b9eac38e4f513f",
+      "robotId": "69dcf00b5f85caa64f9b3d6c",
+      "robotName": "40 - Liberação Cheque Especial",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-27T16:58:42.000Z",
+      "endDate": "2026-10-27T17:00:12.000Z",
+      "duration": 90,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae0c97dc4b9eac38e447b54",
+      "robotId": "69dcf00b5f85caa64f9b3d6c",
+      "robotName": "40 - Liberação Cheque Especial",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-27T15:55:41.000Z",
+      "endDate": "2026-10-27T16:58:41.000Z",
+      "duration": 3780,
+      "success": false,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ae0c874c4b9eac38e43c292",
+      "robotId": "69dcf00b5f85caa64f9b3d6c",
+      "robotName": "40 - Liberação Cheque Especial",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-27T15:51:16.000Z",
+      "endDate": "2026-10-27T15:52:10.000Z",
+      "duration": 54,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae0bed8c4b9eac38e3d27f9",
+      "robotId": "6a4e92f4e0a326cd91fb86d5",
+      "robotName": "40 - Reclassificação Risco - CRL 3039",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-27T15:10:16.000Z",
+      "endDate": "2026-10-27T15:23:14.000Z",
+      "duration": 778,
+      "success": true,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ae0b7c2c4b9eac38e37e5ee",
+      "robotId": "6a50fbb60d04f6e6cd98e1a5",
+      "robotName": "D 11:35 20 - Relatorio Consorcio",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-27T14:40:02.000Z",
+      "endDate": "2026-10-27T14:45:57.000Z",
+      "duration": 355,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae0b591c4b9eac38e362845",
+      "robotId": "6a51018f1f7e527fed816962",
+      "robotName": "D 11:30 - 20 - Relatorio Educacao Financeira",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-27T14:30:40.000Z",
+      "endDate": "2026-10-27T14:37:15.000Z",
+      "duration": 395,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae0b338c4b9eac38e345f53",
+      "robotId": "6a50f383674eca6f007f3392",
+      "robotName": "D 11:20 - 20 - Relatorio Etica e Integridade",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-27T14:20:40.000Z",
+      "endDate": "2026-10-27T14:21:52.000Z",
+      "duration": 72,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae0b20be8e077c4c173ec80",
+      "robotId": "6a50fe0d55f7991ca7e31baa",
+      "robotName": "D 11:15 - 20 - Relatorio Publico",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-27T14:15:39.000Z",
+      "endDate": "2026-10-27T14:16:46.000Z",
+      "duration": 67,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae0b0e0e8e077c4c172fa55",
+      "robotId": "6a50f7fed33d7bc41dabab93",
+      "robotName": "D 11:10 - 20 - Relatorio Riscos e Controles Singulares",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-27T14:10:39.000Z",
+      "endDate": "2026-10-27T14:11:27.000Z",
+      "duration": 48,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae0aef8e8e077c4c171780a",
+      "robotId": "69f0f337cffb4fc330448f35",
+      "robotName": "40 - Reclassificação Risco - CRL 001",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-27T14:02:31.000Z",
+      "endDate": "2026-10-27T15:02:29.000Z",
+      "duration": 3598,
+      "success": true,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ae0ae8be8e077c4c1710880",
+      "robotId": "6a4fe0a282ad17677ca769f6",
+      "robotName": "D 11:00 - 20 - Relatórios Embaixador Sicoob",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-27T14:00:43.000Z",
+      "endDate": "2026-10-27T14:01:28.000Z",
+      "duration": 45,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae0a77fe8e077c4c16b697f",
+      "robotId": "6a56e6431c9080c7cb3aae8a",
+      "robotName": "D 10:30 - 20 - Ubots - Inad Credito 35 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-27T13:30:39.000Z",
+      "endDate": "2026-10-27T13:32:20.000Z",
+      "duration": 101,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae0a653e8e077c4c16a860c",
+      "robotId": "6a56e61c1c9080c7cb3aae79",
+      "robotName": "D 10:25 - 20 - Ubots - Inad Credito 25 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-27T13:25:39.000Z",
+      "endDate": "2026-10-27T13:27:11.000Z",
+      "duration": 92,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae0a527e8e077c4c16993c7",
+      "robotId": "6a56e5f81c9080c7cb3aae68",
+      "robotName": "D 10:20 - 20 -Ubots -  Inad Credito 03 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-27T13:20:39.000Z",
+      "endDate": "2026-10-27T13:21:00.000Z",
+      "duration": 21,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae0a3fbe8e077c4c168b3fc",
+      "robotId": "6a56e5881c9080c7cb3aae46",
+      "robotName": "D 10:15 - 20 - Ubots - Inad TD 05 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-27T13:15:39.000Z",
+      "endDate": "2026-10-27T13:16:57.000Z",
+      "duration": 78,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae0a2cfe8e077c4c167d358",
+      "robotId": "6a56e5c71c9080c7cb3aae57",
+      "robotName": "D 10:10 - 20 - Ubots - Inad AD 05 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-27T13:10:39.000Z",
+      "endDate": "2026-10-27T13:11:56.000Z",
+      "duration": 77,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae0a1a3e8e077c4c166f8ca",
+      "robotId": "6a56e396408dff01d5f079f9",
+      "robotName": "D 10:05 - 20 - Ubots - Cotas Pendentes",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-27T13:05:39.000Z",
+      "endDate": "2026-10-27T13:05:49.000Z",
+      "duration": 10,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae08ed0e8e077c4c157c362",
+      "robotId": "6a6a10696f0732ec155741c7",
+      "robotName": "01 - Importacao Dados LCI",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-27T11:45:20.000Z",
+      "endDate": "2026-10-27T11:52:51.000Z",
+      "duration": 451,
+      "success": false,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ae08c70e8e077c4c155b64e",
+      "robotId": "69c5674cce8501c95b4e5503",
+      "robotName": "01 - Relatorio Ficha Cobrança",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-27T11:35:12.000Z",
+      "endDate": "2026-10-27T11:35:21.000Z",
+      "duration": 9,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae08a6ee8e077c4c153d938",
+      "robotId": "69c5674cce8501c95b4e5503",
+      "robotName": "01 - Relatorio Ficha Cobrança",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-27T11:26:38.000Z",
+      "endDate": "2026-10-27T11:26:48.000Z",
+      "duration": 10,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae08928e8e077c4c152b76d",
+      "robotId": "69c5674cce8501c95b4e5503",
+      "robotName": "01 - Relatorio Ficha Cobrança",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-27T11:21:11.000Z",
+      "endDate": "2026-10-27T11:26:37.000Z",
+      "duration": 326,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae08459e8e077c4c14eead1",
+      "robotId": "69c68d47b8206691e25fd7cc",
+      "robotName": "01 - Relatório Câmbio",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-27T11:00:41.000Z",
+      "endDate": "2026-10-27T11:01:00.000Z",
+      "duration": 19,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae08029e8e077c4c14c1cde",
+      "robotId": "6a6a10696f0732ec155741c7",
+      "robotName": "01 - Importacao Dados LCI",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-27T10:42:49.000Z",
+      "endDate": "2026-10-27T11:00:40.000Z",
+      "duration": 1071,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae07fe8e8e077c4c14bf547",
+      "robotId": "69c68d47b8206691e25fd7cc",
+      "robotName": "01 - Relatório Câmbio",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-27T10:41:44.000Z",
+      "endDate": "2026-10-27T10:42:48.000Z",
+      "duration": 64,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae07fdee8e077c4c14bed45",
+      "robotId": "6a68df778c1f58ababa1b36f",
+      "robotName": "01 - Importacao Dados LCA",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-27T10:41:34.000Z",
+      "endDate": "2026-10-27T10:41:44.000Z",
+      "duration": 10,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae07e91e8e077c4c14b36af",
+      "robotId": "6a7f2155dfbf1d88d0e66c3c",
+      "robotName": "01 - Importacao Aplicacoes LCI LCA",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-27T10:36:01.000Z",
+      "endDate": "2026-10-27T10:41:33.000Z",
+      "duration": 332,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae07d0fe8e077c4c14a5aba",
+      "robotId": "6a6a10696f0732ec155741c7",
+      "robotName": "01 - Importacao Dados LCI",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-27T10:29:34.000Z",
+      "endDate": "2026-10-27T10:36:00.000Z",
+      "duration": 386,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae07bd9e8e077c4c149b708",
+      "robotId": "6a68df778c1f58ababa1b36f",
+      "robotName": "01 - Importacao Dados LCA",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-27T10:24:25.000Z",
+      "endDate": "2026-10-27T10:29:33.000Z",
+      "duration": 308,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae07bcfe8e077c4c149b2bf",
+      "robotId": "69fa0a6be077d3c2af3fb61e",
+      "robotName": "01 - Relatório Simulações de Crédito",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-27T10:24:15.000Z",
+      "endDate": "2026-10-27T10:24:25.000Z",
+      "duration": 10,
+      "success": true,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ae07bc4e8e077c4c149ad61",
+      "robotId": "69bacd43bd7aecca5bfae786",
+      "robotName": "01 - Relatorios Parcelas Inadimplentes",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-27T10:24:04.000Z",
+      "endDate": "2026-10-27T10:24:14.000Z",
+      "duration": 10,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae07b8fe8e077c4c14991c2",
+      "robotId": "6a6a158941de8fd49d45e070",
+      "robotName": "01 - Relatório Estornos Débito Automático",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-27T10:23:11.000Z",
+      "endDate": "2026-10-27T10:24:03.000Z",
+      "duration": 52,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae07af3e8e077c4c14936a9",
+      "robotId": "69df96b41841d175877bdec2",
+      "robotName": "20 - Download de convênios",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-27T10:20:35.000Z",
+      "endDate": "2026-10-27T10:20:41.000Z",
+      "duration": 6,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae0789be8e077c4c147e381",
+      "robotId": "69df96b41841d175877bdec2",
+      "robotName": "20 - Download de convênios",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-27T10:10:35.000Z",
+      "endDate": "2026-10-27T10:10:44.000Z",
+      "duration": 9,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae076f0e8e077c4c146fc13",
+      "robotId": "69b816639a73e49fab6ecf7b",
+      "robotName": "01 - Relatórios Risco",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-27T10:03:28.000Z",
+      "endDate": "2026-10-27T10:23:10.000Z",
+      "duration": 1182,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae076d2e8e077c4c146e91f",
+      "robotId": "69f0f337cffb4fc330448f35",
+      "robotName": "40 - Reclassificação Risco - CRL 001",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-27T10:02:58.000Z",
+      "endDate": "2026-10-27T13:56:47.000Z",
+      "duration": 14029,
+      "success": false,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ae07643e8e077c4c1468453",
+      "robotId": "69df96b41841d175877bdec2",
+      "robotName": "20 - Download de convênios",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-27T10:00:35.000Z",
+      "endDate": "2026-10-27T10:02:43.000Z",
+      "duration": 128,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae073c8e8e077c4c1453a77",
+      "robotId": "69bacd43bd7aecca5bfae786",
+      "robotName": "01 - Relatorios Parcelas Inadimplentes",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-27T09:49:59.000Z",
+      "endDate": "2026-10-27T10:03:28.000Z",
+      "duration": 809,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae073bee8e077c4c1453574",
+      "robotId": "69bd876c20a381874c09d994",
+      "robotName": "01 - Relatorio JUD SICOOB",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-27T09:49:49.000Z",
+      "endDate": "2026-10-27T09:49:59.000Z",
+      "duration": 10,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae07049e8e077c4c1436b6c",
+      "robotId": "69b816639a73e49fab6ecf7b",
+      "robotName": "01 - Relatórios Risco",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-27T09:35:04.000Z",
+      "endDate": "2026-10-27T09:49:49.000Z",
+      "duration": 885,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae0703fe8e077c4c1436532",
+      "robotId": "69c3c39d1de43b143a68bb1c",
+      "robotName": "01 - Relatório Fabrica de Limites",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-27T09:34:55.000Z",
+      "endDate": "2026-10-27T09:35:04.000Z",
+      "duration": 9,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae06fe9e8e077c4c14339b8",
+      "robotId": "6a6a158941de8fd49d45e070",
+      "robotName": "01 - Relatório Estornos Débito Automático",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-27T09:33:29.000Z",
+      "endDate": "2026-10-27T09:34:55.000Z",
+      "duration": 86,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae06fb3e8e077c4c1431e27",
+      "robotId": "69f0f337cffb4fc330448f35",
+      "robotName": "40 - Reclassificação Risco - CRL 001",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-27T09:32:34.000Z",
+      "endDate": "2026-10-27T09:34:24.000Z",
+      "duration": 110,
+      "success": false,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ae06ee8e8e077c4c142a962",
+      "robotId": "69fa0a6be077d3c2af3fb61e",
+      "robotName": "01 - Relatório Simulações de Crédito",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-27T09:29:12.000Z",
+      "endDate": "2026-10-27T09:33:28.000Z",
+      "duration": 256,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae06e52e8e077c4c1425959",
+      "robotId": "69c3c39d1de43b143a68bb1c",
+      "robotName": "01 - Relatório Fabrica de Limites",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-27T09:26:41.000Z",
+      "endDate": "2026-10-27T09:29:12.000Z",
+      "duration": 151,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae06d68e8e077c4c141e665",
+      "robotId": "69bd876c20a381874c09d994",
+      "robotName": "01 - Relatorio JUD SICOOB",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-27T09:22:47.000Z",
+      "endDate": "2026-10-27T09:26:40.000Z",
+      "duration": 233,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae06c67e8e077c4c141579b",
+      "robotId": "69fa0a6be077d3c2af3fb61e",
+      "robotName": "01 - Relatório Simulações de Crédito",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-27T09:18:30.000Z",
+      "endDate": "2026-10-27T09:22:46.000Z",
+      "duration": 256,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae06c5fe8e077c4c1414fd8",
+      "robotId": "69c5674cce8501c95b4e5503",
+      "robotName": "01 - Relatorio Ficha Cobrança",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-27T09:18:22.000Z",
+      "endDate": "2026-10-27T09:18:30.000Z",
+      "duration": 8,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae06b82e8e077c4c140dd40",
+      "robotId": "6a6a158941de8fd49d45e070",
+      "robotName": "01 - Relatório Estornos Débito Automático",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-27T09:14:42.000Z",
+      "endDate": "2026-10-27T09:18:13.000Z",
+      "duration": 211,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ae06a5be8e077c4c14046a9",
+      "robotId": "69c5674cce8501c95b4e5503",
+      "robotName": "01 - Relatorio Ficha Cobrança",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-27T09:09:46.000Z",
+      "endDate": "2026-10-27T09:14:42.000Z",
+      "duration": 296,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adf6696e8e077c4c1a3549a",
+      "robotId": "6a50fbb60d04f6e6cd98e1a5",
+      "robotName": "D 11:35 20 - Relatorio Consorcio",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-26T14:41:26.000Z",
+      "endDate": "2026-10-26T14:47:22.000Z",
+      "duration": 356,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adf6402e8e077c4c1a118a5",
+      "robotId": "6a51018f1f7e527fed816962",
+      "robotName": "D 11:30 - 20 - Relatorio Educacao Financeira",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-26T14:30:27.000Z",
+      "endDate": "2026-10-26T14:37:06.000Z",
+      "duration": 399,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adf61aae8e077c4c19f1e17",
+      "robotId": "6a50f383674eca6f007f3392",
+      "robotName": "D 11:20 - 20 - Relatorio Etica e Integridade",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-26T14:20:26.000Z",
+      "endDate": "2026-10-26T14:21:32.000Z",
+      "duration": 66,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adf607ee8e077c4c19e187d",
+      "robotId": "6a50fe0d55f7991ca7e31baa",
+      "robotName": "D 11:15 - 20 - Relatorio Publico",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-26T14:15:26.000Z",
+      "endDate": "2026-10-26T14:16:26.000Z",
+      "duration": 60,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adf5f52e8e077c4c19d183c",
+      "robotId": "6a50f7fed33d7bc41dabab93",
+      "robotName": "D 11:10 - 20 - Relatorio Riscos e Controles Singulares",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-26T14:10:26.000Z",
+      "endDate": "2026-10-26T14:11:13.000Z",
+      "duration": 47,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adf5cf9e8e077c4c19b0cce",
+      "robotId": "6a4fe0a282ad17677ca769f6",
+      "robotName": "D 11:00 - 20 - Relatórios Embaixador Sicoob",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-26T14:00:26.000Z",
+      "endDate": "2026-10-26T14:01:33.000Z",
+      "duration": 67,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adf55f1e8e077c4c19493a7",
+      "robotId": "6a56e6431c9080c7cb3aae8a",
+      "robotName": "D 10:30 - 20 - Ubots - Inad Credito 35 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-26T13:30:26.000Z",
+      "endDate": "2026-10-26T13:35:48.000Z",
+      "duration": 322,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adf5530e8e077c4c193f335",
+      "robotId": "6a56e61c1c9080c7cb3aae79",
+      "robotName": "D 10:25 - 20 - Ubots - Inad Credito 25 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-26T13:27:12.000Z",
+      "endDate": "2026-10-26T13:29:19.000Z",
+      "duration": 127,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adf5433e8e077c4c1932ad5",
+      "robotId": "6a56e5f81c9080c7cb3aae68",
+      "robotName": "D 10:20 - 20 -Ubots -  Inad Credito 03 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-26T13:22:59.000Z",
+      "endDate": "2026-10-26T13:27:11.000Z",
+      "duration": 252,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adf526de8e077c4c191936b",
+      "robotId": "6a56e5881c9080c7cb3aae46",
+      "robotName": "D 10:15 - 20 - Ubots - Inad TD 05 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-26T13:15:26.000Z",
+      "endDate": "2026-10-26T13:18:22.000Z",
+      "duration": 176,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adf5141e8e077c4c190a4c9",
+      "robotId": "6a56e5c71c9080c7cb3aae57",
+      "robotName": "D 10:10 - 20 - Ubots - Inad AD 05 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-26T13:10:25.000Z",
+      "endDate": "2026-10-26T13:12:40.000Z",
+      "duration": 135,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adf5015e8e077c4c18fb3b9",
+      "robotId": "6a56e396408dff01d5f079f9",
+      "robotName": "D 10:05 - 20 - Ubots - Cotas Pendentes",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-26T13:05:25.000Z",
+      "endDate": "2026-10-26T13:05:38.000Z",
+      "duration": 13,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adf44fee8e077c4c186e5d2",
+      "robotId": "6a6a10696f0732ec155741c7",
+      "robotName": "01 - Importacao Dados LCI",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-26T12:18:06.000Z",
+      "endDate": "2026-10-26T12:23:14.000Z",
+      "duration": 308,
+      "success": false,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6adf44ade8e077c4c186ae82",
+      "robotId": "69c3c39d1de43b143a68bb1c",
+      "robotName": "01 - Relatório Fabrica de Limites",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-26T12:16:45.000Z",
+      "endDate": "2026-10-26T12:16:51.000Z",
+      "duration": 6,
+      "success": true,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6adf4220e8e077c4c184c732",
+      "robotId": "69bacd43bd7aecca5bfae786",
+      "robotName": "01 - Relatorios Parcelas Inadimplentes",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-26T12:05:51.000Z",
+      "endDate": "2026-10-26T12:16:44.000Z",
+      "duration": 653,
+      "success": true,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6adf3e14e8e077c4c181a48c",
+      "robotId": "69bacd43bd7aecca5bfae786",
+      "robotName": "01 - Relatorios Parcelas Inadimplentes",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-26T11:48:36.000Z",
+      "endDate": "2026-10-26T11:52:35.000Z",
+      "duration": 239,
+      "success": false,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6adf3cb7e8e077c4c18099ba",
+      "robotId": "69bacd43bd7aecca5bfae786",
+      "robotName": "01 - Relatorios Parcelas Inadimplentes",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-26T11:42:46.000Z",
+      "endDate": "2026-10-26T11:46:46.000Z",
+      "duration": 240,
+      "success": false,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6adf39f3e8e077c4c17e9226",
+      "robotId": "6a6a10696f0732ec155741c7",
+      "robotName": "01 - Importacao Dados LCI",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-26T11:30:58.000Z",
+      "endDate": "2026-10-26T11:35:28.000Z",
+      "duration": 270,
+      "success": false,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6adf36a5e8e077c4c17be955",
+      "robotId": "69c3c39d1de43b143a68bb1c",
+      "robotName": "01 - Relatório Fabrica de Limites",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-26T11:16:52.000Z",
+      "endDate": "2026-10-26T11:21:01.000Z",
+      "duration": 249,
+      "success": false,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6adf3078e8e077c4c1771cbc",
+      "robotId": "69c68d47b8206691e25fd7cc",
+      "robotName": "01 - Relatório Câmbio",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-26T10:50:32.000Z",
+      "endDate": "2026-10-26T10:50:39.000Z",
+      "duration": 7,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adf2e21e8e077c4c175a595",
+      "robotId": "69c68d47b8206691e25fd7cc",
+      "robotName": "01 - Relatório Câmbio",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-26T10:40:32.000Z",
+      "endDate": "2026-10-26T10:40:40.000Z",
+      "duration": 8,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adf2d4de8e077c4c175374a",
+      "robotId": "6a7f2155dfbf1d88d0e66c3c",
+      "robotName": "01 - Importacao Aplicacoes LCI LCA",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-26T10:37:01.000Z",
+      "endDate": "2026-10-26T10:37:05.000Z",
+      "duration": 4,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adf2c41e8e077c4c174a8ad",
+      "robotId": "6a6a10696f0732ec155741c7",
+      "robotName": "01 - Importacao Dados LCI",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-26T10:32:32.000Z",
+      "endDate": "2026-10-26T10:37:00.000Z",
+      "duration": 268,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adf2bcde8e077c4c1745b18",
+      "robotId": "69c68d47b8206691e25fd7cc",
+      "robotName": "01 - Relatório Câmbio",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-26T10:30:36.000Z",
+      "endDate": "2026-10-26T10:31:24.000Z",
+      "duration": 48,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adf2bc9e8e077c4c174584c",
+      "robotId": "6a68df778c1f58ababa1b36f",
+      "robotName": "01 - Importacao Dados LCA",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-26T10:30:32.000Z",
+      "endDate": "2026-10-26T10:30:36.000Z",
+      "duration": 4,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adf2affe8e077c4c173f279",
+      "robotId": "6a7f2155dfbf1d88d0e66c3c",
+      "robotName": "01 - Importacao Aplicacoes LCI LCA",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-26T10:27:10.000Z",
+      "endDate": "2026-10-26T10:27:14.000Z",
+      "duration": 4,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adf29e8e8e077c4c173622d",
+      "robotId": "6a6a10696f0732ec155741c7",
+      "robotName": "01 - Importacao Dados LCI",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-26T10:22:32.000Z",
+      "endDate": "2026-10-26T10:27:10.000Z",
+      "duration": 278,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adf29bde8e077c4c1734c0f",
+      "robotId": "6a68df778c1f58ababa1b36f",
+      "robotName": "01 - Importacao Dados LCA",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-26T10:21:48.000Z",
+      "endDate": "2026-10-26T10:21:52.000Z",
+      "duration": 4,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adf28eae8e077c4c172d3ca",
+      "robotId": "6a7f2155dfbf1d88d0e66c3c",
+      "robotName": "01 - Importacao Aplicacoes LCI LCA",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-26T10:18:18.000Z",
+      "endDate": "2026-10-26T10:21:48.000Z",
+      "duration": 210,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adf27dde8e077c4c1724692",
+      "robotId": "6a6a10696f0732ec155741c7",
+      "robotName": "01 - Importacao Dados LCI",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-26T10:13:48.000Z",
+      "endDate": "2026-10-26T10:18:17.000Z",
+      "duration": 269,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adf2718e8e077c4c171dd42",
+      "robotId": "6a68df778c1f58ababa1b36f",
+      "robotName": "01 - Importacao Dados LCA",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-26T10:10:32.000Z",
+      "endDate": "2026-10-26T10:13:48.000Z",
+      "duration": 196,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adf269de8e077c4c1719dc6",
+      "robotId": "6a6a158941de8fd49d45e070",
+      "robotName": "01 - Relatório Estornos Débito Automático",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-26T10:08:29.000Z",
+      "endDate": "2026-10-26T10:09:04.000Z",
+      "duration": 35,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adf2698e8e077c4c1719a5a",
+      "robotId": "69b816639a73e49fab6ecf7b",
+      "robotName": "01 - Relatórios Risco",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-26T10:08:24.000Z",
+      "endDate": "2026-10-26T10:08:28.000Z",
+      "duration": 4,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adf2428e8e077c4c17048a1",
+      "robotId": "69bacd43bd7aecca5bfae786",
+      "robotName": "01 - Relatorios Parcelas Inadimplentes",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-26T09:58:00.000Z",
+      "endDate": "2026-10-26T10:08:23.000Z",
+      "duration": 623,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adf2107e8e077c4c16ec454",
+      "robotId": "69b816639a73e49fab6ecf7b",
+      "robotName": "01 - Relatórios Risco",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-26T09:44:38.000Z",
+      "endDate": "2026-10-26T09:57:59.000Z",
+      "duration": 801,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adf1f7ee8e077c4c16e060a",
+      "robotId": "69c3c39d1de43b143a68bb1c",
+      "robotName": "01 - Relatório Fabrica de Limites",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-26T09:38:05.000Z",
+      "endDate": "2026-10-26T09:44:38.000Z",
+      "duration": 393,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adf1ec3e8e077c4c16da8dc",
+      "robotId": "69bd876c20a381874c09d994",
+      "robotName": "01 - Relatorio JUD SICOOB",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-26T09:34:59.000Z",
+      "endDate": "2026-10-26T09:38:05.000Z",
+      "duration": 186,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adf1d7be8e077c4c16cfbc2",
+      "robotId": "69fa0a6be077d3c2af3fb61e",
+      "robotName": "01 - Relatório Simulações de Crédito",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-26T09:29:31.000Z",
+      "endDate": "2026-10-26T09:34:58.000Z",
+      "duration": 327,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adf1c05e8e077c4c16c4a25",
+      "robotId": "6a6a158941de8fd49d45e070",
+      "robotName": "01 - Relatório Estornos Débito Automático",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-26T09:23:16.000Z",
+      "endDate": "2026-10-26T09:26:15.000Z",
+      "duration": 179,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adb7606e8e077c4c17fb805",
+      "robotId": "6a4e92f4e0a326cd91fb86d5",
+      "robotName": "40 - Reclassificação Risco - CRL 3039",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-23T14:58:13.000Z",
+      "endDate": "2026-10-23T15:11:04.000Z",
+      "duration": 771,
+      "success": true,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6adb715fe8e077c4c17bc6e0",
+      "robotId": "6a50fbb60d04f6e6cd98e1a5",
+      "robotName": "D 11:35 20 - Relatorio Consorcio",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-23T14:38:22.000Z",
+      "endDate": "2026-10-23T14:44:22.000Z",
+      "duration": 360,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adb6f8be8e077c4c17a43d8",
+      "robotId": "6a51018f1f7e527fed816962",
+      "robotName": "D 11:30 - 20 - Relatorio Educacao Financeira",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-23T14:30:34.000Z",
+      "endDate": "2026-10-23T14:37:05.000Z",
+      "duration": 391,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adb6d32e8e077c4c1785a3a",
+      "robotId": "6a50f383674eca6f007f3392",
+      "robotName": "D 11:20 - 20 - Relatorio Etica e Integridade",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-23T14:20:34.000Z",
+      "endDate": "2026-10-23T14:21:39.000Z",
+      "duration": 65,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adb6c06e8e077c4c17780a4",
+      "robotId": "6a50fe0d55f7991ca7e31baa",
+      "robotName": "D 11:15 - 20 - Relatorio Publico",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-23T14:15:34.000Z",
+      "endDate": "2026-10-23T14:16:33.000Z",
+      "duration": 59,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adb6adae8e077c4c176b62c",
+      "robotId": "6a50f7fed33d7bc41dabab93",
+      "robotName": "D 11:10 - 20 - Relatorio Riscos e Controles Singulares",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-23T14:10:34.000Z",
+      "endDate": "2026-10-23T14:11:15.000Z",
+      "duration": 41,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adb6883e8e077c4c174c8c4",
+      "robotId": "6a4fe0a282ad17677ca769f6",
+      "robotName": "D 11:00 - 20 - Relatórios Embaixador Sicoob",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-23T14:00:35.000Z",
+      "endDate": "2026-10-23T14:01:22.000Z",
+      "duration": 47,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adb63d5e8e077c4c1714c57",
+      "robotId": "6a56e6431c9080c7cb3aae8a",
+      "robotName": "D 10:30 - 20 - Ubots - Inad Credito 35 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-23T13:40:37.000Z",
+      "endDate": "2026-10-23T13:41:27.000Z",
+      "duration": 50,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adb6393e8e077c4c1711557",
+      "robotId": "6a56e61c1c9080c7cb3aae79",
+      "robotName": "D 10:25 - 20 - Ubots - Inad Credito 25 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-23T13:39:31.000Z",
+      "endDate": "2026-10-23T13:40:36.000Z",
+      "duration": 65,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adb5f22e8e077c4c16d6e4e",
+      "robotId": "6a56e5f81c9080c7cb3aae68",
+      "robotName": "D 10:20 - 20 -Ubots -  Inad Credito 03 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-23T13:20:34.000Z",
+      "endDate": "2026-10-23T13:39:30.000Z",
+      "duration": 1136,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adb5df6e8e077c4c16c1b64",
+      "robotId": "6a56e5881c9080c7cb3aae46",
+      "robotName": "D 10:15 - 20 - Ubots - Inad TD 05 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-23T13:15:34.000Z",
+      "endDate": "2026-10-23T13:16:14.000Z",
+      "duration": 40,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adb5ccae8e077c4c16b0246",
+      "robotId": "6a56e5c71c9080c7cb3aae57",
+      "robotName": "D 10:10 - 20 - Ubots - Inad AD 05 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-23T13:10:34.000Z",
+      "endDate": "2026-10-23T13:10:41.000Z",
+      "duration": 7,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adb5b9ee8e077c4c169fd1a",
+      "robotId": "6a56e396408dff01d5f079f9",
+      "robotName": "D 10:05 - 20 - Ubots - Cotas Pendentes",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-23T13:05:34.000Z",
+      "endDate": "2026-10-23T13:05:57.000Z",
+      "duration": 23,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adb4188e8e077c4c153fa05",
+      "robotId": "69c3c39d1de43b143a68bb1c",
+      "robotName": "01 - Relatório Fabrica de Limites",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-23T11:14:16.000Z",
+      "endDate": "2026-10-23T11:14:26.000Z",
+      "duration": 10,
+      "success": true,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6adb3cdae8e077c4c150d52b",
+      "robotId": "69c3c39d1de43b143a68bb1c",
+      "robotName": "01 - Relatório Fabrica de Limites",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-23T10:54:18.000Z",
+      "endDate": "2026-10-23T11:00:49.000Z",
+      "duration": 391,
+      "success": false,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6adb3bf9e8e077c4c1503578",
+      "robotId": "69c68d47b8206691e25fd7cc",
+      "robotName": "01 - Relatório Câmbio",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-23T10:50:32.000Z",
+      "endDate": "2026-10-23T10:50:42.000Z",
+      "duration": 10,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adb39a1e8e077c4c14e87f2",
+      "robotId": "69c68d47b8206691e25fd7cc",
+      "robotName": "01 - Relatório Câmbio",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-23T10:40:33.000Z",
+      "endDate": "2026-10-23T10:40:41.000Z",
+      "duration": 8,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adb38ede8e077c4c14e0fc9",
+      "robotId": "6a7f2155dfbf1d88d0e66c3c",
+      "robotName": "01 - Importacao Aplicacoes LCI LCA",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-23T10:37:32.000Z",
+      "endDate": "2026-10-23T10:37:37.000Z",
+      "duration": 5,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adb374de8e077c4c14cf260",
+      "robotId": "69c68d47b8206691e25fd7cc",
+      "robotName": "01 - Relatório Câmbio",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-23T10:30:37.000Z",
+      "endDate": "2026-10-23T10:31:26.000Z",
+      "duration": 49,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adb3748e8e077c4c14cedbe",
+      "robotId": "6a68df778c1f58ababa1b36f",
+      "robotName": "01 - Importacao Dados LCA",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-23T10:30:32.000Z",
+      "endDate": "2026-10-23T10:30:36.000Z",
+      "duration": 4,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adb3667e8e077c4c14c783c",
+      "robotId": "6a7f2155dfbf1d88d0e66c3c",
+      "robotName": "01 - Importacao Aplicacoes LCI LCA",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-23T10:26:46.000Z",
+      "endDate": "2026-10-23T10:26:50.000Z",
+      "duration": 4,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adb3550e8e077c4c14bdac3",
+      "robotId": "6a68df778c1f58ababa1b36f",
+      "robotName": "01 - Importacao Dados LCA",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-23T10:22:07.000Z",
+      "endDate": "2026-10-23T10:22:13.000Z",
+      "duration": 6,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adb347ee8e077c4c14b5eb3",
+      "robotId": "6a7f2155dfbf1d88d0e66c3c",
+      "robotName": "01 - Importacao Aplicacoes LCI LCA",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-23T10:18:37.000Z",
+      "endDate": "2026-10-23T10:22:07.000Z",
+      "duration": 210,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adb3298e8e077c4c14a458c",
+      "robotId": "6a68df778c1f58ababa1b36f",
+      "robotName": "01 - Importacao Dados LCA",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-23T10:10:32.000Z",
+      "endDate": "2026-10-23T10:13:54.000Z",
+      "duration": 202,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adb3045e8e077c4c148df9c",
+      "robotId": "69bacd43bd7aecca5bfae786",
+      "robotName": "01 - Relatorios Parcelas Inadimplentes",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-23T10:00:36.000Z",
+      "endDate": "2026-10-23T10:00:40.000Z",
+      "duration": 4,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adb3039e8e077c4c148d688",
+      "robotId": "6a6a158941de8fd49d45e070",
+      "robotName": "01 - Relatório Estornos Débito Automático",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-23T10:00:25.000Z",
+      "endDate": "2026-10-23T10:00:36.000Z",
+      "duration": 11,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adb3033e8e077c4c148d288",
+      "robotId": "69b816639a73e49fab6ecf7b",
+      "robotName": "01 - Relatórios Risco",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-23T10:00:19.000Z",
+      "endDate": "2026-10-23T10:00:25.000Z",
+      "duration": 6,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adb2e18e8e077c4c147bdcb",
+      "robotId": "69bacd43bd7aecca5bfae786",
+      "robotName": "01 - Relatorios Parcelas Inadimplentes",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-23T09:51:20.000Z",
+      "endDate": "2026-10-23T10:00:19.000Z",
+      "duration": 539,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adb2e12e8e077c4c147ba0b",
+      "robotId": "69bd876c20a381874c09d994",
+      "robotName": "01 - Relatorio JUD SICOOB",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-23T09:51:14.000Z",
+      "endDate": "2026-10-23T09:51:19.000Z",
+      "duration": 5,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adb2ae5e8e077c4c1461157",
+      "robotId": "69b816639a73e49fab6ecf7b",
+      "robotName": "01 - Relatórios Risco",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-23T09:37:41.000Z",
+      "endDate": "2026-10-23T09:51:13.000Z",
+      "duration": 812,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adb2954e8e077c4c1453fb0",
+      "robotId": "69c3c39d1de43b143a68bb1c",
+      "robotName": "01 - Relatório Fabrica de Limites",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-23T09:31:00.000Z",
+      "endDate": "2026-10-23T09:37:41.000Z",
+      "duration": 401,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adb292fe8e077c4c14521a9",
+      "robotId": "6a6a158941de8fd49d45e070",
+      "robotName": "01 - Relatório Estornos Débito Automático",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-23T09:30:23.000Z",
+      "endDate": "2026-10-23T09:30:59.000Z",
+      "duration": 36,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adb292fe8e077c4c14520c6",
+      "robotId": "69f0f337cffb4fc330448f35",
+      "robotName": "40 - Reclassificação Risco - CRL 001",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-23T09:30:23.000Z",
+      "endDate": "2026-10-23T12:14:47.000Z",
+      "duration": 9864,
+      "success": true,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6adb292be8e077c4c1451d22",
+      "robotId": "69bd876c20a381874c09d994",
+      "robotName": "01 - Relatorio JUD SICOOB",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-23T09:30:19.000Z",
+      "endDate": "2026-10-23T09:30:23.000Z",
+      "duration": 4,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adb2927e8e077c4c145176d",
+      "robotId": "69fa0a6be077d3c2af3fb61e",
+      "robotName": "01 - Relatório Simulações de Crédito",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-23T09:30:15.000Z",
+      "endDate": "2026-10-23T09:30:19.000Z",
+      "duration": 4,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adb2790e8e077c4c1444645",
+      "robotId": "69c3c39d1de43b143a68bb1c",
+      "robotName": "01 - Relatório Fabrica de Limites",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-23T09:23:27.000Z",
+      "endDate": "2026-10-23T09:30:07.000Z",
+      "duration": 400,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adb26d3e8e077c4c143dd2b",
+      "robotId": "69bd876c20a381874c09d994",
+      "robotName": "01 - Relatorio JUD SICOOB",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-23T09:20:19.000Z",
+      "endDate": "2026-10-23T09:23:27.000Z",
+      "duration": 188,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6adb258ce8e077c4c143355b",
+      "robotId": "69fa0a6be077d3c2af3fb61e",
+      "robotName": "01 - Relatório Simulações de Crédito",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-23T09:14:52.000Z",
+      "endDate": "2026-10-23T09:20:18.000Z",
+      "duration": 326,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ada1fa6e8e077c4c197c406",
+      "robotId": "6a50fbb60d04f6e6cd98e1a5",
+      "robotName": "D 11:35 20 - Relatorio Consorcio",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-22T14:37:25.000Z",
+      "endDate": "2026-10-22T14:43:24.000Z",
+      "duration": 359,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ada1df9e8e077c4c1963f66",
+      "robotId": "6a51018f1f7e527fed816962",
+      "robotName": "D 11:30 - 20 - Relatorio Educacao Financeira",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-22T14:30:16.000Z",
+      "endDate": "2026-10-22T14:36:53.000Z",
+      "duration": 397,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ada1ba1e8e077c4c1945438",
+      "robotId": "6a50f383674eca6f007f3392",
+      "robotName": "D 11:20 - 20 - Relatorio Etica e Integridade",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-22T14:20:16.000Z",
+      "endDate": "2026-10-22T14:21:27.000Z",
+      "duration": 71,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ada1a75e8e077c4c19363a1",
+      "robotId": "6a50fe0d55f7991ca7e31baa",
+      "robotName": "D 11:15 - 20 - Relatorio Publico",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-22T14:15:16.000Z",
+      "endDate": "2026-10-22T14:16:22.000Z",
+      "duration": 66,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ada1949e8e077c4c1928116",
+      "robotId": "6a50f7fed33d7bc41dabab93",
+      "robotName": "D 11:10 - 20 - Relatorio Riscos e Controles Singulares",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-22T14:10:16.000Z",
+      "endDate": "2026-10-22T14:11:01.000Z",
+      "duration": 45,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ada16f0e8e077c4c190abcd",
+      "robotId": "6a4fe0a282ad17677ca769f6",
+      "robotName": "D 11:00 - 20 - Relatórios Embaixador Sicoob",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-22T14:00:16.000Z",
+      "endDate": "2026-10-22T14:00:58.000Z",
+      "duration": 42,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ada0fe8e8e077c4c18b05c1",
+      "robotId": "6a56e6431c9080c7cb3aae8a",
+      "robotName": "D 10:30 - 20 - Ubots - Inad Credito 35 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-22T13:30:15.000Z",
+      "endDate": "2026-10-22T13:30:47.000Z",
+      "duration": 32,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ada0ebce8e077c4c18a3ae0",
+      "robotId": "6a56e61c1c9080c7cb3aae79",
+      "robotName": "D 10:25 - 20 - Ubots - Inad Credito 25 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-22T13:25:16.000Z",
+      "endDate": "2026-10-22T13:25:30.000Z",
+      "duration": 14,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ada0d90e8e077c4c1896966",
+      "robotId": "6a56e5f81c9080c7cb3aae68",
+      "robotName": "D 10:20 - 20 -Ubots -  Inad Credito 03 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-22T13:20:15.000Z",
+      "endDate": "2026-10-22T13:24:31.000Z",
+      "duration": 256,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ada0c64e8e077c4c18888a3",
+      "robotId": "6a56e5881c9080c7cb3aae46",
+      "robotName": "D 10:15 - 20 - Ubots - Inad TD 05 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-22T13:15:15.000Z",
+      "endDate": "2026-10-22T13:16:04.000Z",
+      "duration": 49,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ada0b38e8e077c4c187a14c",
+      "robotId": "6a56e5c71c9080c7cb3aae57",
+      "robotName": "D 10:10 - 20 - Ubots - Inad AD 05 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-22T13:10:16.000Z",
+      "endDate": "2026-10-22T13:10:23.000Z",
+      "duration": 7,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ada0a0ce8e077c4c186c8a3",
+      "robotId": "6a56e396408dff01d5f079f9",
+      "robotName": "D 10:05 - 20 - Ubots - Cotas Pendentes",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-22T13:05:15.000Z",
+      "endDate": "2026-10-22T13:05:25.000Z",
+      "duration": 10,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad9fc46e8e077c4c17b1ab7",
+      "robotId": "6a50f7fed33d7bc41dabab93",
+      "robotName": "D 11:10 - 20 - Relatorio Riscos e Controles Singulares",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-22T12:06:30.000Z",
+      "endDate": "2026-10-22T12:07:13.000Z",
+      "duration": 43,
+      "success": false,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ad9faafe8e077c4c1798d9e",
+      "robotId": "6a4fe0a282ad17677ca769f6",
+      "robotName": "D 11:00 - 20 - Relatórios Embaixador Sicoob",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-22T11:59:42.000Z",
+      "endDate": "2026-10-22T12:04:33.000Z",
+      "duration": 291,
+      "success": true,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ad9fa63e8e077c4c1793b49",
+      "robotId": "6a4fe0a282ad17677ca769f6",
+      "robotName": "D 11:00 - 20 - Relatórios Embaixador Sicoob",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-22T11:58:27.000Z",
+      "endDate": "2026-10-22T11:59:14.000Z",
+      "duration": 47,
+      "success": false,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ad9e237e8e077c4c166e430",
+      "robotId": "6a7f2155dfbf1d88d0e66c3c",
+      "robotName": "01 - Importacao Aplicacoes LCI LCA",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-22T10:15:19.000Z",
+      "endDate": "2026-10-22T10:15:23.000Z",
+      "duration": 4,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad9dd87e8e077c4c1643c5a",
+      "robotId": "69bacd43bd7aecca5bfae786",
+      "robotName": "01 - Relatorios Parcelas Inadimplentes",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-22T09:55:19.000Z",
+      "endDate": "2026-10-22T09:55:23.000Z",
+      "duration": 4,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad9dd04e8e077c4c163fb0b",
+      "robotId": "69b816639a73e49fab6ecf7b",
+      "robotName": "01 - Relatórios Risco",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-22T09:53:07.000Z",
+      "endDate": "2026-10-22T09:53:14.000Z",
+      "duration": 7,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad9daefe8e077c4c162de95",
+      "robotId": "69bd876c20a381874c09d994",
+      "robotName": "01 - Relatorio JUD SICOOB",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-22T09:44:15.000Z",
+      "endDate": "2026-10-22T09:44:22.000Z",
+      "duration": 7,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad9d7abe8e077c4c1612049",
+      "robotId": "69b816639a73e49fab6ecf7b",
+      "robotName": "01 - Relatórios Risco",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-22T09:30:19.000Z",
+      "endDate": "2026-10-22T09:44:14.000Z",
+      "duration": 835,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad9d733e8e077c4c160e53a",
+      "robotId": "69fa0a6be077d3c2af3fb61e",
+      "robotName": "01 - Relatório Simulações de Crédito",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-22T09:28:19.000Z",
+      "endDate": "2026-10-22T09:28:22.000Z",
+      "duration": 3,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad9d5e0e8e077c4c1603d03",
+      "robotId": "69bd876c20a381874c09d994",
+      "robotName": "01 - Relatorio JUD SICOOB",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-22T09:22:40.000Z",
+      "endDate": "2026-10-22T09:22:45.000Z",
+      "duration": 5,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad9d5d9e8e077c4c16038da",
+      "robotId": "69fa0a6be077d3c2af3fb61e",
+      "robotName": "01 - Relatório Simulações de Crédito",
+      "device": "Roberty(UAD01)",
+      "publicIp": "187.33.160.238",
+      "startDate": "2026-10-22T09:22:33.000Z",
+      "endDate": "2026-10-22T09:22:39.000Z",
+      "duration": 6,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad8ef60e8e077c4c1c1dd74",
+      "robotId": "6a50f383674eca6f007f3392",
+      "robotName": "D 11:20 - 20 - Relatorio Etica e Integridade",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-21T16:59:11.000Z",
+      "endDate": "2026-10-21T17:00:24.000Z",
+      "duration": 73,
+      "success": false,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ad8ce69e8e077c4c1ab0317",
+      "robotId": "6a50fbb60d04f6e6cd98e1a5",
+      "robotName": "D 11:35 20 - Relatorio Consorcio",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-21T14:38:32.000Z",
+      "endDate": "2026-10-21T14:44:31.000Z",
+      "duration": 359,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad8ce29e8e077c4c1aad02a",
+      "robotId": "6a848e2863313f843eb316ed",
+      "robotName": "S 11:30 - 20 - Ubots - Cancelamento Seguros - Qua",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-21T14:37:28.000Z",
+      "endDate": "2026-10-21T14:38:09.000Z",
+      "duration": 41,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad8cc92e8e077c4c1a97d42",
+      "robotId": "6a51018f1f7e527fed816962",
+      "robotName": "D 11:30 - 20 - Relatorio Educacao Financeira",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-21T14:30:41.000Z",
+      "endDate": "2026-10-21T14:37:19.000Z",
+      "duration": 398,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad8c90ee8e077c4c1a693e5",
+      "robotId": "6a50fe0d55f7991ca7e31baa",
+      "robotName": "D 11:15 - 20 - Relatorio Publico",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-21T14:15:41.000Z",
+      "endDate": "2026-10-21T14:16:46.000Z",
+      "duration": 65,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad8c7e2e8e077c4c1a596e5",
+      "robotId": "6a50f7fed33d7bc41dabab93",
+      "robotName": "D 11:10 - 20 - Relatorio Riscos e Controles Singulares",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-21T14:10:41.000Z",
+      "endDate": "2026-10-21T14:11:50.000Z",
+      "duration": 69,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad8be82e8e077c4c19d8410",
+      "robotId": "6a56e6431c9080c7cb3aae8a",
+      "robotName": "D 10:30 - 20 - Ubots - Inad Credito 35 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-21T13:30:41.000Z",
+      "endDate": "2026-10-21T13:31:31.000Z",
+      "duration": 50,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad8bd55e8e077c4c19c5f28",
+      "robotId": "6a56e61c1c9080c7cb3aae79",
+      "robotName": "D 10:25 - 20 - Ubots - Inad Credito 25 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-21T13:25:40.000Z",
+      "endDate": "2026-10-21T13:25:48.000Z",
+      "duration": 8,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad8bc29e8e077c4c19b6496",
+      "robotId": "6a56e5f81c9080c7cb3aae68",
+      "robotName": "D 10:20 - 20 -Ubots -  Inad Credito 03 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-21T13:20:41.000Z",
+      "endDate": "2026-10-21T13:20:56.000Z",
+      "duration": 15,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad8bafde8e077c4c19a55ed",
+      "robotId": "6a56e5881c9080c7cb3aae46",
+      "robotName": "D 10:15 - 20 - Ubots - Inad TD 05 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-21T13:15:40.000Z",
+      "endDate": "2026-10-21T13:16:54.000Z",
+      "duration": 74,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad8b9d1e8e077c4c1995d53",
+      "robotId": "6a56e5c71c9080c7cb3aae57",
+      "robotName": "D 10:10 - 20 - Ubots - Inad AD 05 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-21T13:10:40.000Z",
+      "endDate": "2026-10-21T13:11:57.000Z",
+      "duration": 77,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad8b8a5e8e077c4c1986e8b",
+      "robotId": "6a56e396408dff01d5f079f9",
+      "robotName": "D 10:05 - 20 - Ubots - Cotas Pendentes",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-21T13:05:40.000Z",
+      "endDate": "2026-10-21T13:05:55.000Z",
+      "duration": 15,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad8a5d6e8e077c4c1896af7",
+      "robotId": "6a4e92f4e0a326cd91fb86d5",
+      "robotName": "40 - Reclassificação Risco - CRL 3039",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-21T11:45:27.000Z",
+      "endDate": "2026-10-21T11:55:28.000Z",
+      "duration": 601,
+      "success": true,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ad8986ce8e077c4c17fd76d",
+      "robotId": "69f0f337cffb4fc330448f35",
+      "robotName": "40 - Reclassificação Risco - CRL 001",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-21T10:48:12.000Z",
+      "endDate": "2026-10-21T11:38:10.000Z",
+      "duration": 2998,
+      "success": true,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ad885d1e8e077c4c175678c",
+      "robotId": "69f0f337cffb4fc330448f35",
+      "robotName": "40 - Reclassificação Risco - CRL 001",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-21T09:28:49.000Z",
+      "endDate": "2026-10-21T10:33:31.000Z",
+      "duration": 3882,
+      "success": false,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ad7a81de8e077c4c1f582dd",
+      "robotId": "6a4e92f4e0a326cd91fb86d5",
+      "robotName": "40 - Reclassificação Risco - CRL 3039",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-20T17:42:52.000Z",
+      "endDate": "2026-10-20T17:54:01.000Z",
+      "duration": 669,
+      "success": true,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ad79f6be8e077c4c1ee9d60",
+      "robotId": "69f0f337cffb4fc330448f35",
+      "robotName": "40 - Reclassificação Risco - CRL 001",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-20T17:05:45.000Z",
+      "endDate": "2026-10-20T17:12:48.000Z",
+      "duration": 423,
+      "success": true,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ad79997e8e077c4c1e9ead9",
+      "robotId": "69f0f337cffb4fc330448f35",
+      "robotName": "40 - Reclassificação Risco - CRL 001",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-20T16:40:54.000Z",
+      "endDate": "2026-10-20T17:02:01.000Z",
+      "duration": 1267,
+      "success": false,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ad7990be8e077c4c1e9688f",
+      "robotId": "69f0f337cffb4fc330448f35",
+      "robotName": "40 - Reclassificação Risco - CRL 001",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-20T16:38:34.000Z",
+      "endDate": "2026-10-20T16:40:22.000Z",
+      "duration": 108,
+      "success": true,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ad77d03e8e077c4c1d4c01f",
+      "robotId": "6a50fbb60d04f6e6cd98e1a5",
+      "robotName": "D 11:35 20 - Relatorio Consorcio",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-20T14:38:58.000Z",
+      "endDate": "2026-10-20T14:44:45.000Z",
+      "duration": 347,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad77b04d802d44ebdcaff6d",
+      "robotId": "6a51018f1f7e527fed816962",
+      "robotName": "D 11:30 - 20 - Relatorio Educacao Financeira",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-20T14:30:28.000Z",
+      "endDate": "2026-10-20T14:36:59.000Z",
+      "duration": 391,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad77780d802d44ebdc8676c",
+      "robotId": "6a50fe0d55f7991ca7e31baa",
+      "robotName": "D 11:15 - 20 - Relatorio Publico",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-20T14:15:28.000Z",
+      "endDate": "2026-10-20T14:16:22.000Z",
+      "duration": 54,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad77655d802d44ebdc78b71",
+      "robotId": "6a50f7fed33d7bc41dabab93",
+      "robotName": "D 11:10 - 20 - Relatorio Riscos e Controles Singulares",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-20T14:10:28.000Z",
+      "endDate": "2026-10-20T14:11:37.000Z",
+      "duration": 69,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad76cf4d802d44ebdbf6732",
+      "robotId": "6a56e6431c9080c7cb3aae8a",
+      "robotName": "D 10:30 - 20 - Ubots - Inad Credito 35 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-20T13:30:28.000Z",
+      "endDate": "2026-10-20T13:35:28.000Z",
+      "duration": 300,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad76bc8d802d44ebdbe75a0",
+      "robotId": "6a56e61c1c9080c7cb3aae79",
+      "robotName": "D 10:25 - 20 - Ubots - Inad Credito 25 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-20T13:25:27.000Z",
+      "endDate": "2026-10-20T13:27:50.000Z",
+      "duration": 143,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad76aa0d802d44ebdbd8d0f",
+      "robotId": "6a56e5f81c9080c7cb3aae68",
+      "robotName": "D 10:20 - 20 -Ubots -  Inad Credito 03 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-20T13:20:31.000Z",
+      "endDate": "2026-10-20T13:22:13.000Z",
+      "duration": 102,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad76970d802d44ebdbc8ea3",
+      "robotId": "6a56e5881c9080c7cb3aae46",
+      "robotName": "D 10:15 - 20 - Ubots - Inad TD 05 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-20T13:15:28.000Z",
+      "endDate": "2026-10-20T13:18:05.000Z",
+      "duration": 157,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad76844d802d44ebdbb77b7",
+      "robotId": "6a56e5c71c9080c7cb3aae57",
+      "robotName": "D 10:10 - 20 - Ubots - Inad AD 05 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-20T13:10:27.000Z",
+      "endDate": "2026-10-20T13:12:12.000Z",
+      "duration": 105,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad76718d802d44ebdba4950",
+      "robotId": "6a56e396408dff01d5f079f9",
+      "robotName": "D 10:05 - 20 - Ubots - Cotas Pendentes",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-20T13:05:27.000Z",
+      "endDate": "2026-10-20T13:05:37.000Z",
+      "duration": 10,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad65329d802d44ebd119b69",
+      "robotId": "6a4e92f4e0a326cd91fb86d5",
+      "robotName": "40 - Reclassificação Risco - CRL 3039",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-19T17:28:09.000Z",
+      "endDate": "2026-10-19T17:35:09.000Z",
+      "duration": 420,
+      "success": true,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ad62b23d802d44ebdf323f5",
+      "robotId": "6a50fbb60d04f6e6cd98e1a5",
+      "robotName": "D 11:35 20 - Relatorio Consorcio",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-19T14:37:23.000Z",
+      "endDate": "2026-10-19T14:43:21.000Z",
+      "duration": 358,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad62979d802d44ebdf1c27b",
+      "robotId": "6a51018f1f7e527fed816962",
+      "robotName": "D 11:30 - 20 - Relatorio Educacao Financeira",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-19T14:30:18.000Z",
+      "endDate": "2026-10-19T14:36:54.000Z",
+      "duration": 396,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad625f5d802d44ebdeee989",
+      "robotId": "6a50fe0d55f7991ca7e31baa",
+      "robotName": "D 11:15 - 20 - Relatorio Publico",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-19T14:15:18.000Z",
+      "endDate": "2026-10-19T14:16:17.000Z",
+      "duration": 59,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad624c9d802d44ebdedf3ba",
+      "robotId": "6a50f7fed33d7bc41dabab93",
+      "robotName": "D 11:10 - 20 - Relatorio Riscos e Controles Singulares",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-19T14:10:17.000Z",
+      "endDate": "2026-10-19T14:11:29.000Z",
+      "duration": 72,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad62146d802d44ebdea92c8",
+      "robotId": "6a56e6431c9080c7cb3aae8a",
+      "robotName": "D 10:30 - 20 - Ubots - Inad Credito 35 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-19T13:55:18.000Z",
+      "endDate": "2026-10-19T13:56:34.000Z",
+      "duration": 76,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad6209ed802d44ebdea000c",
+      "robotId": "6a56e61c1c9080c7cb3aae79",
+      "robotName": "D 10:25 - 20 - Ubots - Inad Credito 25 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-19T13:52:30.000Z",
+      "endDate": "2026-10-19T13:55:18.000Z",
+      "duration": 168,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad61910d802d44ebde36ff8",
+      "robotId": "6a56e5f81c9080c7cb3aae68",
+      "robotName": "D 10:20 - 20 -Ubots -  Inad Credito 03 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-19T13:20:17.000Z",
+      "endDate": "2026-10-19T13:52:30.000Z",
+      "duration": 1933,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad617e5d802d44ebde28479",
+      "robotId": "6a56e5881c9080c7cb3aae46",
+      "robotName": "D 10:15 - 20 - Ubots - Inad TD 05 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-19T13:15:17.000Z",
+      "endDate": "2026-10-19T13:17:33.000Z",
+      "duration": 136,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad616b8d802d44ebde18e5b",
+      "robotId": "6a56e5c71c9080c7cb3aae57",
+      "robotName": "D 10:10 - 20 - Ubots - Inad AD 05 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-19T13:10:16.000Z",
+      "endDate": "2026-10-19T13:12:02.000Z",
+      "duration": 106,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad6158dd802d44ebde09850",
+      "robotId": "6a56e396408dff01d5f079f9",
+      "robotName": "D 10:05 - 20 - Ubots - Cotas Pendentes",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-19T13:05:17.000Z",
+      "endDate": "2026-10-19T13:05:35.000Z",
+      "duration": 18,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad251b4d802d44ebdd55311",
+      "robotId": "6a4e92f4e0a326cd91fb86d5",
+      "robotName": "40 - Reclassificação Risco - CRL 3039",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-16T16:32:52.000Z",
+      "endDate": "2026-10-16T16:41:24.000Z",
+      "duration": 512,
+      "success": true,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ad23944d802d44ebdc49087",
+      "robotId": "6a50fbb60d04f6e6cd98e1a5",
+      "robotName": "D 11:35 20 - Relatorio Consorcio",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-16T14:48:35.000Z",
+      "endDate": "2026-10-16T14:54:35.000Z",
+      "duration": 360,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad23741d802d44ebdc2d61c",
+      "robotId": "6a51018f1f7e527fed816962",
+      "robotName": "D 11:30 - 20 - Relatorio Educacao Financeira",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-16T14:40:00.000Z",
+      "endDate": "2026-10-16T14:46:35.000Z",
+      "duration": 395,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad236bcd802d44ebdc274cc",
+      "robotId": "6a50fe0d55f7991ca7e31baa",
+      "robotName": "D 11:15 - 20 - Relatorio Publico",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-16T14:37:48.000Z",
+      "endDate": "2026-10-16T14:38:48.000Z",
+      "duration": 60,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad2334bd802d44ebdbf5676",
+      "robotId": "6a56e6431c9080c7cb3aae8a",
+      "robotName": "D 10:30 - 20 - Ubots - Inad Credito 35 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-16T14:23:07.000Z",
+      "endDate": "2026-10-16T14:30:12.000Z",
+      "duration": 425,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad2321ed802d44ebdbe572a",
+      "robotId": "6a56e61c1c9080c7cb3aae79",
+      "robotName": "D 10:25 - 20 - Ubots - Inad Credito 25 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-16T14:18:06.000Z",
+      "endDate": "2026-10-16T14:23:06.000Z",
+      "duration": 300,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad224abd802d44ebdb18dec",
+      "robotId": "6a56e5f81c9080c7cb3aae68",
+      "robotName": "D 10:20 - 20 -Ubots -  Inad Credito 03 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-16T13:20:42.000Z",
+      "endDate": "2026-10-16T14:18:05.000Z",
+      "duration": 3443,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad2237ed802d44ebdb07377",
+      "robotId": "6a56e5881c9080c7cb3aae46",
+      "robotName": "D 10:15 - 20 - Ubots - Inad TD 05 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-16T13:15:41.000Z",
+      "endDate": "2026-10-16T13:16:27.000Z",
+      "duration": 46,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad22252d802d44ebdaf5abc",
+      "robotId": "6a56e5c71c9080c7cb3aae57",
+      "robotName": "D 10:10 - 20 - Ubots - Inad AD 05 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-16T13:10:42.000Z",
+      "endDate": "2026-10-16T13:10:50.000Z",
+      "duration": 8,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad22127d802d44ebdae3ab3",
+      "robotId": "6a56e396408dff01d5f079f9",
+      "robotName": "D 10:05 - 20 - Ubots - Cotas Pendentes",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-16T13:05:42.000Z",
+      "endDate": "2026-10-16T13:05:55.000Z",
+      "duration": 13,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad100d6d802d44ebdff18c0",
+      "robotId": "6a4e92f4e0a326cd91fb86d5",
+      "robotName": "40 - Reclassificação Risco - CRL 3039",
+      "device": "Roberty40(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-15T16:35:34.000Z",
+      "endDate": "2026-10-15T16:44:05.000Z",
+      "duration": 511,
+      "success": true,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ad0e001d802d44ebde7fcd7",
+      "robotId": "6a50fe0d55f7991ca7e31baa",
+      "robotName": "D 11:15 - 20 - Relatorio Publico",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-15T14:15:29.000Z",
+      "endDate": "2026-10-15T14:16:34.000Z",
+      "duration": 65,
+      "success": false,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad0d574d802d44ebddfb24b",
+      "robotId": "6a56e6431c9080c7cb3aae8a",
+      "robotName": "D 10:30 - 20 - Ubots - Inad Credito 35 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-15T13:30:28.000Z",
+      "endDate": "2026-10-15T13:41:18.000Z",
+      "duration": 650,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad0d448d802d44ebddea99f",
+      "robotId": "6a56e61c1c9080c7cb3aae79",
+      "robotName": "D 10:25 - 20 - Ubots - Inad Credito 25 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-15T13:25:27.000Z",
+      "endDate": "2026-10-15T13:25:42.000Z",
+      "duration": 15,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad0d31cd802d44ebdddc9fc",
+      "robotId": "6a56e5f81c9080c7cb3aae68",
+      "robotName": "D 10:20 - 20 -Ubots -  Inad Credito 03 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-15T13:20:28.000Z",
+      "endDate": "2026-10-15T13:20:42.000Z",
+      "duration": 14,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad0d1f0d802d44ebddcc4ca",
+      "robotId": "6a56e5881c9080c7cb3aae46",
+      "robotName": "D 10:15 - 20 - Ubots - Inad TD 05 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-15T13:15:27.000Z",
+      "endDate": "2026-10-15T13:18:24.000Z",
+      "duration": 177,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad0d0c4d802d44ebddbc1df",
+      "robotId": "6a56e5c71c9080c7cb3aae57",
+      "robotName": "D 10:10 - 20 - Ubots - Inad AD 05 dias",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-15T13:10:28.000Z",
+      "endDate": "2026-10-15T13:10:36.000Z",
+      "duration": 8,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ad0cf98d802d44ebddaccb9",
+      "robotId": "6a56e396408dff01d5f079f9",
+      "robotName": "D 10:05 - 20 - Ubots - Cotas Pendentes",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-15T13:05:28.000Z",
+      "endDate": "2026-10-15T13:05:39.000Z",
+      "duration": 11,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6acf93e1d802d44ebd0fb18d",
+      "robotId": "6a848e2863313f843eb316ed",
+      "robotName": "S 11:30 - 20 - Ubots - Cancelamento Seguros - Qua",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-14T14:38:24.000Z",
+      "endDate": "2026-10-14T14:39:05.000Z",
+      "duration": 41,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ac6592502e3682a087e4ea8",
+      "robotId": "6a848e2863313f843eb316ed",
+      "robotName": "S 11:30 - 20 - Ubots - Cancelamento Seguros - Qua",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-10-07T14:37:24.000Z",
+      "endDate": "2026-10-07T14:38:01.000Z",
+      "duration": 37,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6abd1d7702e3682a08b801b2",
+      "robotId": "6a848e2863313f843eb316ed",
+      "robotName": "S 11:30 - 20 - Ubots - Cancelamento Seguros - Qua",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-09-30T14:32:24.000Z",
+      "endDate": "2026-09-30T14:33:03.000Z",
+      "duration": 39,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6ab535d3dba966018e6e5f42",
+      "robotId": "6a848e2863313f843eb316ed",
+      "robotName": "S 11:30 - 20 - Ubots - Cancelamento Seguros - Qua",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-09-24T14:38:09.000Z",
+      "endDate": "2026-09-24T14:38:56.000Z",
+      "duration": 47,
+      "success": true,
+      "kind": "MANUAL"
+    },
+    {
+      "runId": "6ab3e303dba966018e6df53c",
+      "robotId": "6a848e2863313f843eb316ed",
+      "robotName": "S 11:30 - 20 - Ubots - Cancelamento Seguros - Qua",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-09-23T14:32:35.000Z",
+      "endDate": "2026-09-23T14:32:41.000Z",
+      "duration": 6,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6aaaa878dba966018e9ac852",
+      "robotId": "6a848e2863313f843eb316ed",
+      "robotName": "S 11:30 - 20 - Ubots - Cancelamento Seguros - Qua",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-09-16T14:32:23.000Z",
+      "endDate": "2026-09-16T14:32:34.000Z",
+      "duration": 11,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6aa16d9d6b15e82c5ba4655c",
+      "robotId": "6a848e2863313f843eb316ed",
+      "robotName": "S 11:30 - 20 - Ubots - Cancelamento Seguros - Qua",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-09-09T14:30:53.000Z",
+      "endDate": "2026-09-09T14:31:01.000Z",
+      "duration": 8,
+      "success": true,
+      "kind": "SCHEDULED"
+    },
+    {
+      "runId": "6a98330db490ba664a35e265",
+      "robotId": "6a848e2863313f843eb316ed",
+      "robotName": "S 11:30 - 20 - Ubots - Cancelamento Seguros - Qua",
+      "device": "Roberty20(PRD)",
+      "publicIp": "177.129.79.254",
+      "startDate": "2026-09-02T14:30:36.000Z",
+      "endDate": "2026-09-02T14:30:44.000Z",
+      "duration": 8,
+      "success": true,
+      "kind": "SCHEDULED"
+    }
+  ]
+}
