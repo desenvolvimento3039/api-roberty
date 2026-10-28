@@ -1,0 +1,23 @@
+{
+  "name": "roberty-monitoring-dashboard",
+  "version": "1.0.0",
+  "description": "Painel de Monitoramento Corporativo Roberty Automation (RPA) para Sicoob Sao Miguel (Coop 3039)",
+  "main": "roberty_collector.js",
+  "scripts": {
+    "start": "node roberty_collector.js --serve --port 8080",
+    "collect": "node roberty_collector.js",
+    "export-sql": "node export_to_sql.js"
+  },
+  "keywords": [
+    "roberty",
+    "rpa",
+    "monitoring",
+    "dashboard",
+    "grafana",
+    "prometheus",
+    "sicoob"
+  ],
+  "author": "Sicoob Sao Miguel - Coop 3039",
+  "license": "UNLICENSED",
+  "dependencies": {}
+}
